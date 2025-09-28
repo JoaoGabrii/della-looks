@@ -1,0 +1,58 @@
+// códigos reutilizaveis, exemplo:
+@use "../abstracts/variaveis" as *;
+
+@mixin h1() {
+  font-size: 2.5rem;
+}
+@mixin titleBrilho {
+  filter: brightness(1.6);
+}
+@mixin h2 {
+  font-size: 2rem;
+}
+@mixin tituloRoupa() {
+  font-size: 0.8rem;
+}
+
+@mixin text--small() {
+  font-size: 1rem;
+}
+@mixin text--medium() {
+  font-size: 1.1rem;
+}
+
+@mixin preco() {
+  font-size: 1.2rem;
+}
+@mixin parcela() {
+  font-size: 1rem;
+}
+
+//mixins blog
+
+@mixin titleImg() {
+  font-size: 1.5rem;
+}
+
+
+// links e botões ajuste
+@mixin linkbutton() {
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+//efeito underline link e button
+@mixin underlineEfect() {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: all 0.3s ease;
+  transform: translate(-50%);
+}

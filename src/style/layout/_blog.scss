@@ -1,0 +1,128 @@
+@use "../abstracts/variaveis"as *;
+@use "../abstracts/mixins"as *;
+
+#blog {
+  h2 {
+    font-family: $titleFont;
+    @include h1();
+    color: $tittleColorBlog;
+    @include titleBrilho();
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.blog {
+  padding-top: 5%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: $backBlog;
+
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+
+
+
+    &__novos {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 3%;
+      max-width: 1366px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    &__destaque {
+
+      h3 {
+        margin: 1% 2% 2% 2%;
+      }
+
+      p {
+        padding: 0 2% 1% 2%;
+      }
+
+      a {
+        z-index: 0;
+        margin-top: 0.5rem;
+        @include linkbutton();
+        background-color: $buttonBackBlog;
+        color: $buttonColorBlog;
+        padding: 3% 7%;
+        border-radius: 999px;
+        border: 1px solid $buttonColorBlog;
+        font-size: 1rem;
+
+        &:hover {
+          background-color: $buttonBackBlogHover;
+          color: $buttonColorBlogHover;
+          border: 1px solid $buttonBackBlog;
+        }
+
+      }
+
+      img {
+        border-radius: 3%;
+      }
+    }
+
+    &__recentes {
+      max-width: 500px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+
+      &__content {
+        width: 200px;
+        text-align: center;
+        padding-bottom: 5%;
+
+
+        a {
+          z-index: 0;
+          margin-top: 0.5rem;
+          @include linkbutton();
+          background-color: $buttonBackBlog;
+          color: $buttonColorBlog;
+          padding: 4% 8%;
+          border-radius: 999px;
+          border: 1px solid $buttonColorBlog;
+
+          &:hover {
+            background-color: $buttonBackBlogHover;
+            color: $buttonColorBlogHover;
+            border: 1px solid $buttonBackBlogHover;
+          }
+
+        }
+
+
+        
+        img {
+          border-radius: 3%;
+        }
+
+        h3 {
+          width: 200px;
+          margin: 2% 0 6% 0;
+        }
+
+        p {
+          width: 200px;
+          margin-bottom: 2%;
+        }
+      }
+    }
+  }
+}
+
+
+// 3 
