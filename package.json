@@ -8,8 +8,8 @@
   "main": "gulpfile.js",
   "scripts": {
     "gulp": "gulp",
-    "dev": "dev",
-    "build": "build",
+    "dev": "gulp dev",
+    "build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

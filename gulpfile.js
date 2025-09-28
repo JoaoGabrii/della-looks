@@ -14,23 +14,23 @@ const browserSync = require('browser-sync').create();
 const paths = {
     html: {
         src: 'src/html/**/*.html',
-        dev: 'dev/html',
-        dist: 'dist/html'
+        dev: 'dev',
+        dist: 'dist'
     },
     styles: {
         src: 'src/style/**/*.scss',
-        dev: 'dev/style/',
-        dist: 'dist/style/'
+        dev: 'dev',
+        dist: 'dist'
     },
     scripts: {
         src: 'src/javascript/**/*.js',
-        dev: 'dev/javascript/',
-        dist: 'dist/javascript/'
+        dev: 'dev',
+        dist: 'dist'
     },
     images: {
         src: 'src/image/**/*',
-        dev: 'dev/image/',
-        dist: 'dist/imag/'
+        dev: 'dev',
+        dist: 'dist'
     }
 };
 
@@ -61,13 +61,16 @@ function stylesDist() {
     return gulp.src(paths.styles.src)
     .pipe(sass().on('error',sass.logError))
     .pipe(cleanCSS())
-    .pipe(rename({suffix: '.min'}));
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest(paths.styles.dist));
 }
 
 //html para dev
 function htmlDev() {
     return gulp.src(paths.html.src)
     .pipe(replace('@@CSS_PATH@@', '/style/main.css'))
+    .pipe(replace('../image/', ''))
+    .pipe(replace('../javascript/', ''))
     .pipe(gulp.dest(paths.html.dev))
     .pipe(browserSync.stream());
 }
@@ -75,6 +78,9 @@ function htmlDev() {
 //html em minificado para dist
 function htmlDist() {
     return gulp.src(paths.html.src)
+    .pipe(replace('@@CSS_PATH@@', '/main.min.css'))
+    .pipe(replace('../image/', ''))
+    .pipe(replace('../javascript/main.js', 'main.min.js'))
     .pipe(htmlmin({collapseWhitespace:true}))
     .pipe(gulp.dest(paths.html.dist));
 }
@@ -123,4 +129,4 @@ const build = gulp.series(stylesDist, htmlDist, scriptsDist, imagesDist);
 //Exportar
 exports.dev = dev; // npm run gulp dev
 exports.build = build; // npm run gulp build
-// exports.default = dev; // seria somente o npm run gulp
+exports.default = build; // seria somente o npm run gulp
