@@ -40,7 +40,7 @@ function serve(done) {
         server: {
             baseDir: 'dev'
         },
-        startPath: 'html/index.html',
+        startPath: 'index.html',
         open:true,
     });
     done();

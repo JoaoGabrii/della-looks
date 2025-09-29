@@ -2,7 +2,7 @@
 @use "../abstracts/mixins" as *;
 
 header {
-  background-color:red;
+  background-color:$headerFooter;
   .menu {
     display: flex;
     justify-content: space-between;
