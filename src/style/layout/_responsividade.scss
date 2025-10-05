@@ -1,4 +1,5 @@
-@media (max-width:1500px) {
+// config geral
+@media (max-width:1400px) {
     header {
         .menu {
             margin: 0 3% 0 3%;
@@ -6,10 +7,153 @@
     }
 }
 
-@media (max-width:800px) {
+// TABLET
+@media (max-width:1007px) {
+
+    
     .container {
         max-width: 1366px;
         width: 100%;
         margin: 0 auto;
+    }
+
+    .menu__title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        &__itemss {
+            display: none;
+        }
+    }
+
+    .navbar {
+        display: block;
+    }
+
+
+    .roupa {
+        &__items {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+
+    .blog {
+        &__container {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+
+            &__destaque {
+                margin-bottom: 5%;
+                &__imagem {
+                    width: 100%;
+
+                    img {
+                        width: 50%;
+                    }
+                }
+            }
+
+            &__recentes {
+                display: flex;
+                align-items: end;
+                
+            }
+
+            &__novos {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+            }
+        }
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+
+// CELULAR
+@media (max-width:641px) {
+
+
+    .container {
+        max-width: 1366px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .menu__title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        &__itemss {
+            display: none;
+        }
+    }
+
+    .navbar {
+        display: block;
+    }
+
+
+    .roupa {
+        &__items {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+
+    .blog {
+        &__container {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+
+            &__destaque {
+                margin-bottom: 5%;
+                &__imagem {
+                    width: 100%;
+
+                    img {
+                        width: 50%;
+                    }
+                }
+            }
+
+            &__recentes {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            &__novos {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+            }
+        }
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 }

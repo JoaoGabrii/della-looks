@@ -28,7 +28,6 @@
     margin: 0 auto;
 
 
-
     &__novos {
       display: flex;
       justify-content: space-between;
@@ -39,6 +38,7 @@
     }
 
     &__destaque {
+
 
       h3 {
         margin: 1% 2% 2% 2%;
@@ -101,11 +101,8 @@
             color: $buttonColorBlogHover;
             border: 1px solid $buttonBackBlogHover;
           }
-
         }
 
-
-        
         img {
           border-radius: 3%;
         }
@@ -123,6 +120,3 @@
     }
   }
 }
-
-
-// 3 

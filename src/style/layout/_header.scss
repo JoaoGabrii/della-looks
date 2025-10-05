@@ -1,12 +1,18 @@
-@use "../abstracts/variaveis" as *;
-@use "../abstracts/mixins" as *;
+@use "../abstracts/variaveis"as *;
+@use "../abstracts/mixins"as *;
 
 header {
-  background-color:$headerFooter;
+  background-color: $headerFooter;
+
   .menu {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+
+    &__title {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
 
     h1,
     h2 {
@@ -16,20 +22,29 @@ header {
       @include titleBrilho();
     }
 
-    &__items {
-      &__item {
-        display: inline;
-        padding-left: 1.5rem;
-        a {
-          @include linkbutton();
-          color: $colorMenu;
-          @include titleBrilho();
+    &__itemss {
+      width: 75%;
+      
+      &__items {
+        display: flex;
+        justify-content: end;
 
-          &::after {
-            @include underlineEfect();
-          }
-          &:hover::after {
-            width: 100%;
+        &__item {
+          display: inline;
+          padding-left: 1.5rem;
+
+          a {
+            @include linkbutton();
+            color: $colorMenu;
+            @include titleBrilho();
+
+            &::after {
+              @include underlineEfect();
+            }
+
+            &:hover::after {
+              width: 100%;
+            }
           }
         }
       }
@@ -41,7 +56,7 @@ header {
   background-color: $headerFooter;
 
   &__botoes {
-    
+
     &__items {
       text-align: center;
       padding: 0.5rem 0;
@@ -65,15 +80,17 @@ header {
           &::after {
             @include underlineEfect();
           }
+
           &:hover::after {
             width: 100%;
           }
         }
 
-        
+
         //lista de opções de roupas
         .lista {
           display: none;
+
           &__item {
             list-style-type: none;
           }
@@ -92,9 +109,81 @@ header {
   position: relative;
   transition: all 0.3s ease;
 }
+
 #navbar.fixed {
   position: fixed;
   top: 0;
   width: 100%;
   background-color: $headerFooter;
+}
+
+
+// menu hamburguer 
+
+/* Esconde o checkbox */
+.navbar {
+  display: none;
+  margin-right: 5%;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+/* Estilo básico do ícone do hambúrguer */
+.hamburguer {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  /* Garante que fique por cima do menu */
+}
+
+.hamburguer .line {
+  height: 4px;
+  background-color: #333;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Estilos do menu de itens */
+.menu-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  /* Começa oculto */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #eee;
+  z-index: 5;
+}
+
+.menu-items li {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Ação ao clicar no checkbox */
+.menu-toggle:checked~.menu-items {
+  display: block;
+  /* Mostra o menu quando o checkbox está marcado */
+}
+
+.menu-toggle:checked~.hamburguer .line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle:checked~.hamburguer .line:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle:checked~.hamburguer .line:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
 }
