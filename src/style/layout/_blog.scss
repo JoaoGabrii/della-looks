@@ -2,20 +2,22 @@
 @use "../abstracts/mixins"as *;
 
 #blog {
+  background-color: $backTittleBlog;
+  text-align: center;
   h2 {
     font-family: $titleFont;
     @include h1();
     color: $tittleColorBlog;
     @include titleBrilho();
-    max-width: 1366px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
+    text-align: center;
   }
 }
 
 .blog {
   padding-top: 5%;
-  padding: 0 3%;
+
   width: 100%;
   margin: 0 auto;
   background-color: $backBlog;
@@ -24,9 +26,7 @@
   &__container {
     display: flex;
     justify-content: space-between;
-    max-width: 1366px;
-    width: 100%;
-    margin: 0 auto;
+    
 
 
     &__novos {
@@ -35,7 +35,6 @@
       padding-top: 3%;
       max-width: 1366px;
       width: 100%;
-      margin: 0 auto;
     }
 
     &__destaque {
