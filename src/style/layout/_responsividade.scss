@@ -82,8 +82,16 @@
         display: flex;
         flex-wrap: wrap;
 
+
         .ajuda {
             width: 100%;
+
+            &__container {
+                p {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
 
             &__container {
                 width: 100%;
@@ -93,6 +101,14 @@
 
         .afiliado {
             width: 100%;
+
+            p {
+                margin-top: 3%;
+            }
+
+            .paragrafo2 {
+                margin: 0;
+            }
         }
 
         .cadastro {
@@ -138,6 +154,7 @@
         &__items {
             display: flex;
             flex-direction: column;
+            align-items: center;
         }
 
     }
@@ -147,7 +164,7 @@
             display: flex;
             flex-direction: column;
             text-align: center;
-
+            align-items: center;
 
             &__destaque {
                 margin-bottom: 5%;
@@ -161,16 +178,11 @@
                 }
             }
 
-            &__recentes {
-                display: flex;
-
-                align-items: center;
-            }
-
             &__novos {
                 display: flex;
                 flex-wrap: wrap;
                 max-width: 550px;
+                width: 100%;
             }
         }
     }
@@ -180,4 +192,6 @@
         flex-direction: column;
         text-align: center;
     }
+
+
 }
