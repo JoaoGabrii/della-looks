@@ -31,6 +31,19 @@
         display: flex;
         width: 50%;
         justify-content: end;
+        position: relative;
+
+        .navbar__nav__toggle {
+            position: absolute;
+            display: block;
+            background-color: rgb(252, 131, 1);
+            max-width: 150px;
+            width: 100%;
+            min-height: 400px;
+            height: 100%;
+            z-index: 10;
+            right: -25%;
+        }
     }
 
 
@@ -43,6 +56,8 @@
     }
 
     .blog {
+        
+        padding-bottom: 10%;
         &__container {
             display: flex;
             flex-direction: column;
@@ -81,7 +96,6 @@
     .footer {
         display: flex;
         flex-wrap: wrap;
-        
 
         .ajuda {
             width: 100%;
