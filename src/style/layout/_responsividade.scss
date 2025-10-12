@@ -39,6 +39,7 @@
         margin: 0;
         padding: 0;
 
+
         .navbar__nav__toggle {
             position: absolute;
             display: block;
@@ -50,16 +51,27 @@
             z-index: 10;
             right: 0;
             margin-top: 3%;
+
+            &__tittle {
+
+                h2 {
+                    font-size: 1.5rem;
+                }
+            }
+
             ul {
                 margin-top: 5%;
+
                 li {
                     margin-bottom: 2%;
                 }
             }
+
             .redes {
                 display: flex;
                 justify-self: center;
                 margin: 10%;
+
                 &__items {
                     display: flex;
 
@@ -73,10 +85,7 @@
                 }
             }
 
-            h2 {
-                font-size: 2rem;
-                text-align: center;
-            }
+
 
             ul {
                 li {
