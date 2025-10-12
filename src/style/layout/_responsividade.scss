@@ -21,9 +21,13 @@
         display: flex;
     }
 
-    .menu {
-        &__itemss {
-            display: none;
+    header {
+        .menu {
+            align-items: start;
+
+            &__itemss {
+                display: none;
+            }
         }
     }
 
@@ -32,20 +36,69 @@
         width: 50%;
         justify-content: end;
         position: relative;
+        margin: 0;
+        padding: 0;
 
         .navbar__nav__toggle {
             position: absolute;
             display: block;
             background-color: rgb(252, 131, 1);
-            max-width: 150px;
+            max-width: 250px;
             width: 100%;
-            min-height: 400px;
+            min-height: 300px;
             height: 100%;
             z-index: 10;
-            right: -25%;
+            right: 0;
+            margin-top: 3%;
+            ul {
+                margin-top: 5%;
+                li {
+                    margin-bottom: 2%;
+                }
+            }
+            .redes {
+                display: flex;
+                justify-self: center;
+                margin: 10%;
+                &__items {
+                    display: flex;
+
+                    &__item {
+                        list-style-type: none;
+
+                        img {
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+
+            h2 {
+                font-size: 2rem;
+                text-align: center;
+            }
+
+            ul {
+                li {
+                    list-style-type: none;
+                    text-align: center;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+
+            button {
+                font-size: 1.5rem;
+            }
+        }
+
+        .--is-active {
+            display: none;
         }
     }
-
 
     .roupa {
         &__items {
@@ -56,8 +109,9 @@
     }
 
     .blog {
-        
+
         padding-bottom: 10%;
+
         &__container {
             display: flex;
             flex-direction: column;
@@ -130,9 +184,6 @@
             width: 100%;
             margin: 5% 0 5% 0;
         }
-
-        
-
     }
 }
 
@@ -213,7 +264,7 @@
         flex-direction: column;
         text-align: center;
         margin-top: 5%;
-        
+
         .cadastro {
             margin: 10% 0 5% 0;
         }

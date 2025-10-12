@@ -124,12 +124,15 @@ header {
 /* Esconde o checkbox */
 .navbar {
   display: none;
-  margin-right: 5%;
+  text-align: center;
+
+  button {
+    background: none;
+    border: none;
+    margin: 5%;
+  }
 }
 
-.menu-toggle {
-  display: none;
-}
 
 /* Estilo básico do ícone do hambúrguer */
 .hamburguer {
@@ -141,6 +144,7 @@ header {
   cursor: pointer;
   position: relative;
   z-index: 10;
+  margin: 1rem;
   /* Garante que fique por cima do menu */
 }
 
@@ -164,27 +168,4 @@ header {
   width: 100%;
   background-color: #eee;
   z-index: 5;
-}
-
-.menu-items li {
-  padding: 10px;
-  text-align: center;
-}
-
-/* Ação ao clicar no checkbox */
-.menu-toggle:checked~.menu-items {
-  display: block;
-  /* Mostra o menu quando o checkbox está marcado */
-}
-
-.menu-toggle:checked~.hamburguer .line:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-
-.menu-toggle:checked~.hamburguer .line:nth-child(2) {
-  opacity: 0;
-}
-
-.menu-toggle:checked~.hamburguer .line:nth-child(3) {
-  transform: rotate(-45deg) translate(5px, -5px);
 }

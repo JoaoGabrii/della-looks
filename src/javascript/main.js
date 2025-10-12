@@ -100,7 +100,7 @@ for (let i = 0; i < buttonsLista.length; i++) {
         categoria.classList.add('roupa--is-active')
 
         const listaUl = document.querySelectorAll('.lista')
-        
+
         listaUl.forEach(l => {
             l.classList.remove('lista-is--active')
         })
@@ -114,3 +114,25 @@ function escondeTodasAbas() {
         tabsContainer[i].classList.remove('roupa--is-active')
     }
 }
+
+
+
+// mobile 
+
+//abrir e fechar menu
+
+const openButton = document.querySelector('.hamburguer')
+const menuAberto = document.querySelector('.navbar__nav__toggle')
+
+openButton.addEventListener('click', () => {
+
+    menuAberto.classList.remove('--is-active')
+
+
+})
+
+const closeButton = document.querySelector('.button-fechar')
+
+closeButton.addEventListener('click', ()=> {
+    menuAberto.classList.add('--is-active')
+})
