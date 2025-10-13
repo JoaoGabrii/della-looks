@@ -15,12 +15,17 @@ header {
       width: 100%;
     }
 
+    h1 {
+      width: 200px;
+    }
+
     h1,
     h2 {
       font-family: $titleFont;
       @include h1();
       color: $colorMenu;
       @include titleBrilho();
+      
     }
 
     &__itemss {
@@ -129,7 +134,7 @@ header {
   button {
     background: none;
     border: none;
-    margin: 5%;
+    margin-top: 5%;
   }
 }
 

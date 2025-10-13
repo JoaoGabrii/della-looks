@@ -44,18 +44,20 @@
             position: absolute;
             display: block;
             background-color: rgb(252, 131, 1);
-            max-width: 250px;
+            max-width: 1366px;
             width: 100%;
             min-height: 300px;
             height: 100%;
             z-index: 10;
             right: 0;
-            margin-top: 3%;
-
+            padding-top: 3%;
+            box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+            
             &__tittle {
 
                 h2 {
                     font-size: 1.5rem;
+                    width: 100%;
                 }
             }
 
@@ -70,7 +72,7 @@
             .redes {
                 display: flex;
                 justify-self: center;
-                margin: 10%;
+                margin: 10% 0;
 
                 &__items {
                     display: flex;
@@ -200,7 +202,7 @@
 
 
 // CELULAR
-@media (max-width:434px) {
+@media (max-width:471px) {
 
 
     .container {
@@ -222,7 +224,7 @@
 
     .navbar {
         display: flex;
-        width: 45%;
+        width: 100%;
         justify-content: end;
     }
 
