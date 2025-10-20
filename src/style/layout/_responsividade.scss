@@ -31,6 +31,36 @@
         }
     }
 
+
+
+
+/* container que envolve toda a barra */
+.navegador__botoes {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* importante para esconder scroll bar */
+  background: transparent;
+}
+
+/* a lista principal dos botões (esta é a parte que rola) */
+.navegador__botoes {
+  display: flex;
+  padding: 10px 16px;
+  margin: 0;
+  list-style: none;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* firefox */
+  -ms-overflow-style: none; /* ie */
+
+  &__items {
+    width: 100%;
+  }
+}
+
+
     .navbar {
         display: flex;
         width: 50%;
@@ -52,7 +82,7 @@
             right: 0;
             padding-top: 3%;
             box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
-            
+
             &__tittle {
 
                 h2 {
@@ -110,6 +140,8 @@
             display: none;
         }
     }
+
+
 
     .roupa {
         &__items {
@@ -228,6 +260,12 @@
         justify-content: end;
     }
 
+
+    .navegador__botoes__items__item {
+        button {
+            width: 60px;
+        }
+    }
 
     .roupa {
         &__items {

@@ -5,13 +5,14 @@ let currentIndex = 0
 const radio = document.querySelectorAll('.hero__content__radios__radio')
 
 function showNextSlide() {
+    const viewportWidth = window.innerWidth; //largura da página em tempo real
     currentIndex++; // adiciona + 1 na variavel a cada vez que passa
 
     if (currentIndex >= slidesItem.length) {
         currentIndex = 0; // transforma a variavel em 0, assim que chega no limite do length
     }
 
-    const offset = -currentIndex * 1520.7;
+    const offset = -currentIndex * viewportWidth; // alterar para a largura da página em tempo real
 
     slidesItems.style.transform = `translateX(${offset}px)`;
     atualizarRadios()
@@ -20,15 +21,12 @@ function showNextSlide() {
 setInterval(showNextSlide, 5000)
 
 
-
-
-
-
 //atualizar radios
+
 function atualizarRadios() { //atualizar radio ao trocar de slides
 
     radio.forEach((radio, index) => {
-        if (index === currentIndex) {
+        if (index === currentIndex){
             radio.classList.add('hero__content__radios__radio--is-active');
         } else {
             radio.classList.remove('hero__content__radios__radio--is-active')
@@ -36,7 +34,12 @@ function atualizarRadios() { //atualizar radio ao trocar de slides
     })
 }
 
-
+//atualizar radios ao clicar
+const radios = document.querySelector ('.hero__content__radios')
+radios.addEventListener('click', function(event) {
+    const radiosRadio = event.target
+    console.log(radiosRadio)
+})
 
 
 
