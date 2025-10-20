@@ -17,13 +17,23 @@
         margin: 0 auto;
     }
 
-    .menu__title {
-        display: flex;
-    }
+    
 
     header {
         .menu {
             align-items: start;
+
+            &__title {
+                max-width: 1500px;
+                h1 {
+                    margin-right: 5%;
+                }
+
+                h2 {
+
+                    text-align: end;
+                }
+            }
 
             &__itemss {
                 display: none;
