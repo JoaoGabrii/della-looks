@@ -5,14 +5,22 @@ let currentIndex = 0
 const radio = document.querySelectorAll('.hero__content__radios__radio')
 
 function showNextSlide() {
+<<<<<<< HEAD
     const viewportWidth = window.innerWidth; //largura da página em tempo real
+=======
+    const viewportWidth = slidesItem[0].clientWidth //largura da página em tempo real
+>>>>>>> responsividade
     currentIndex++; // adiciona + 1 na variavel a cada vez que passa
 
     if (currentIndex >= slidesItem.length) {
         currentIndex = 0; // transforma a variavel em 0, assim que chega no limite do length
     }
 
+<<<<<<< HEAD
     const offset = -currentIndex * viewportWidth; // alterar para a largura da página em tempo real
+=======
+    const offset = -currentIndex * viewportWidth ; // alterar para a largura da página em tempo real
+>>>>>>> responsividade
 
     slidesItems.style.transform = `translateX(${offset}px)`;
     atualizarRadios()
