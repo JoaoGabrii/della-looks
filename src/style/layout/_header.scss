@@ -10,6 +10,9 @@ header {
     margin: 0 auto;
 
     &__title {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
 
       h1,
       h2 {
@@ -20,6 +23,7 @@ header {
       }
     }
 
+<<<<<<< HEAD
     &__title {
       display: flex;
       justify-content: space-between;
@@ -42,6 +46,8 @@ header {
 =======
 >>>>>>> responsividade
 
+=======
+>>>>>>> responsividade
     &__itemss {
       width: 75%;
 
