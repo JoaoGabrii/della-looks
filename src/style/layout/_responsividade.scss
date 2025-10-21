@@ -17,7 +17,7 @@
         margin: 0 auto;
     }
 
-    
+
 
     header {
         .menu {
@@ -25,6 +25,7 @@
 
             &__title {
                 max-width: 1500px;
+
                 h1 {
                     margin-right: 5%;
                 }
@@ -44,31 +45,34 @@
 
 
 
-/* container que envolve toda a barra */
-.navegador__botoes {
-  position: relative;
-  width: 100%;
-  overflow: hidden; /* importante para esconder scroll bar */
-  background: transparent;
-}
+    /* container que envolve toda a barra */
+    .navegador__botoes {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        /* importante para esconder scroll bar */
+        background: transparent;
+    }
 
-/* a lista principal dos botões (esta é a parte que rola) */
-.navegador__botoes {
-  display: flex;
-  padding: 10px 16px;
-  margin: 0;
-  list-style: none;
-  overflow-x: auto;
-  white-space: nowrap;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none; /* firefox */
-  -ms-overflow-style: none; /* ie */
+    /* a lista principal dos botões (esta é a parte que rola) */
+    .navegador__botoes {
+        display: flex;
+        padding: 10px 16px;
+        margin: 0;
+        list-style: none;
+        overflow-x: auto;
+        white-space: nowrap;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        /* firefox */
+        -ms-overflow-style: none;
+        /* ie */
 
-  &__items {
-    width: 100%;
-  }
-}
+        &__items {
+            width: 100%;
+        }
+    }
 
 
     .navbar {
@@ -81,10 +85,10 @@
 
 
         .navbar__nav__toggle {
-            position: absolute;
-            display: block;
+
+            position: fixed;
             background-color: rgb(252, 131, 1);
-            max-width: 1366px;
+            max-width: 40%;
             width: 100%;
             min-height: 7365px;
             height: 100%;
@@ -92,9 +96,9 @@
             right: 0;
             padding-top: 3%;
             box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
-            transform: translateX(100%);
-            opacity: 0;
-            transition: transform 0.4s ease, opacity 0.4 ease;
+            transform: translateY(-50%) translateX(100%);
+            transition: transform 0.5s ease-in-out;
+
             &__tittle {
 
                 h2 {
@@ -148,10 +152,13 @@
             }
         }
 
-        .--is-active {
-            
+        .navbar__nav__toggle--is-active {
+
             transform: translateX(0);
             opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+            transition-delay: 0s;
         }
     }
 

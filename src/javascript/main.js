@@ -117,10 +117,10 @@ const menuAberto = document.querySelector('.navbar__nav__toggle');
 
 // abrir o menu
 openButton.addEventListener('click', () => {
-  menuAberto.classList.add('--is-active');
+  menuAberto.classList.add('navbar__nav__toggle--is-active');
 });
 
 // fechar o menu
 closeButton.addEventListener('click', () => {
-  menuAberto.classList.remove('--is-active');
+  menuAberto.classList.remove('navbar__nav__toggle--is-active');
 });
