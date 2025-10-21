@@ -39,7 +39,7 @@ header {
       @include h1();
       color: $colorMenu;
       @include titleBrilho();
-      
+
     }
 
     &__itemss {
@@ -72,12 +72,33 @@ header {
   }
 }
 
+.escondido {
+  opacity: 0; /* Torna o elemento invisível */
+  pointer-events: none; /* Impede a interação com o elemento invisível */
+}
+
+.navegador__scrool-arrow {
+  position: sticky;
+  right: 0;
+  z-index: 1;
+  display: none;
+}
+
+.navegador__scrool-arrow-left {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+
 .navegador {
   background-color: $headerFooter;
 
   &__botoes {
 
     &__items {
+      max-width: 90%;
+      margin: 0 auto;
       text-align: center;
       padding: 0.5rem 0;
       display: flex;
@@ -96,7 +117,7 @@ header {
           @include linkbutton();
           color: $colorMenu;
           @include titleBrilho();
-
+          margin: 0 5px;
           &::after {
             @include underlineEfect();
           }

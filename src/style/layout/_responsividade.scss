@@ -42,9 +42,6 @@
         }
     }
 
-
-
-
     /* container que envolve toda a barra */
     .navegador__botoes {
         position: relative;
@@ -57,7 +54,7 @@
     /* a lista principal dos botões (esta é a parte que rola) */
     .navegador__botoes {
         display: flex;
-        padding: 10px 16px;
+        padding: 5px 16px;
         margin: 0;
         list-style: none;
         overflow-x: auto;
@@ -67,7 +64,6 @@
         scrollbar-width: none;
         /* firefox */
         -ms-overflow-style: none;
-        /* ie */
 
         &__items {
             width: 100%;
@@ -162,6 +158,33 @@
         }
     }
 
+    .navegador {
+        &__botoes {
+            &__items {
+                max-width: 100%;
+                margin: 0 auto;
+                padding: 0;
+
+                &__item {
+                    button {
+                        background-color: none;
+                    }
+
+                    .lista {
+                        &__item {
+                            background-color: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .navegador__botoes__items__item {
+        button {
+            width: 65px;
+        }
+    }
 
 
     .roupa {
@@ -282,9 +305,10 @@
     }
 
 
+
     .navegador__botoes__items__item {
         button {
-            width: 60px;
+            width: 65px;
         }
     }
 
@@ -341,4 +365,30 @@
     }
 
 
+}
+
+@media (max-width:720px) {
+    .navegador {
+        &__botoes {
+            &__items {
+                overflow-x: auto;
+            }
+        }
+    }
+
+    .navegador__scrool-arrow {
+        position: sticky;
+        right: 0;
+        z-index: 1;
+        display: block;
+        transition: opacity 0.5s ease-in-out;
+    }
+    
+    .navegador__scrool-arrow-left {
+        position: sticky;
+        left: 0;
+        z-index: 1;
+        display: block;
+        transition: opacity 0.5s ease-in-out;
+    }
 }

@@ -19,7 +19,7 @@ function showNextSlide() {
     const offset = -currentIndex * viewportWidth; // alterar para a largura da página em tempo real
 
     slidesItems.style.transform = `translateX(${offset}px)`;
-    
+
 }
 
 setInterval(showNextSlide, 5000)
@@ -117,10 +117,27 @@ const menuAberto = document.querySelector('.navbar__nav__toggle');
 
 // abrir o menu
 openButton.addEventListener('click', () => {
-  menuAberto.classList.add('navbar__nav__toggle--is-active');
+    menuAberto.classList.add('navbar__nav__toggle--is-active');
 });
 
 // fechar o menu
 closeButton.addEventListener('click', () => {
-  menuAberto.classList.remove('navbar__nav__toggle--is-active');
+    menuAberto.classList.remove('navbar__nav__toggle--is-active');
+});
+
+
+//esconder barra de rolagem menu
+
+const container = document.querySelectorAll('.navegador__botoes__items__item');
+const posicaoContainer = container.offset;
+
+window.addEventListener('scroll', () => {
+
+    const posicaoScroll = window.pageYOffset || document.documentElement.scrollTop;
+    const pontoDeDesaparecimento = posicaoContainer - 500;
+    if (posicaoScroll > pontoDeDesaparecimento) {
+        container.classList.add('escondido'); // Adiciona a classe para esconder
+    } else {
+        container.classList.remove('escondido'); // Remove a classe para reaparecer
+    }
 });
