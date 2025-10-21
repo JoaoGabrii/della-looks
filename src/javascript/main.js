@@ -110,18 +110,17 @@ function escondeTodasAbas() {
 
 //abrir e fechar menu
 
-const openButton = document.querySelector('.hamburguer')
-const menuAberto = document.querySelector('.navbar__nav__toggle')
+// mobile — abrir e fechar menu
+const openButton = document.querySelector('.hamburguer');
+const closeButton = document.querySelector('.button-fechar');
+const menuAberto = document.querySelector('.navbar__nav__toggle');
 
+// abrir o menu
 openButton.addEventListener('click', () => {
+  menuAberto.classList.add('--is-active');
+});
 
-    menuAberto.classList.remove('--is-active')
-
-
-})
-
-const closeButton = document.querySelector('.button-fechar')
-
-closeButton.addEventListener('click', ()=> {
-    menuAberto.classList.add('--is-active')
-})
+// fechar o menu
+closeButton.addEventListener('click', () => {
+  menuAberto.classList.remove('--is-active');
+});

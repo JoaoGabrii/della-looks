@@ -86,13 +86,15 @@
             background-color: rgb(252, 131, 1);
             max-width: 1366px;
             width: 100%;
-            min-height: 300px;
+            min-height: 7365px;
             height: 100%;
             z-index: 10;
             right: 0;
             padding-top: 3%;
             box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
-
+            transform: translateX(100%);
+            opacity: 0;
+            transition: transform 0.4s ease, opacity 0.4 ease;
             &__tittle {
 
                 h2 {
@@ -147,7 +149,9 @@
         }
 
         .--is-active {
-            display: none;
+            
+            transform: translateX(0);
+            opacity: 1;
         }
     }
 
