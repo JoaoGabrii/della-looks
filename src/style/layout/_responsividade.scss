@@ -372,6 +372,7 @@
         &__botoes {
             &__items {
                 overflow-x: auto;
+
             }
         }
     }
@@ -383,7 +384,7 @@
         display: block;
         transition: opacity 0.5s ease-in-out;
     }
-    
+
     .navegador__scrool-arrow-left {
         position: sticky;
         left: 0;
