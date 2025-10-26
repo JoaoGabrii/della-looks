@@ -30,20 +30,38 @@ setInterval(showNextSlide, 5000)
 
 
 
-// navegação acompanha a rolagem da página. melhorar (adicionar uma variavel que junta altura do cabeçalho + altura do hero e jogar essa variavel ao invés da soma dos dois.)
+// navegação acompanha a rolagem da página. melhorar
 const navbar = document.querySelector('#navbar')
 
+const alturaMenu = document.querySelector('.menu')
+const alturaHero = document.querySelector('.hero')
+
+const alturaMenuLimite = alturaMenu.offsetHeight
+const alturaHeroLimite = alturaHero.offsetHeight
+
+const menuHero = alturaMenuLimite + alturaHeroLimite
+
 window.addEventListener("scroll", () => {
-    if (window.scrollY > 459) {
+    if (window.scrollY > menuHero) {
         navbar.classList.add('fixed')
     } else {
         navbar.classList.remove('fixed')
     }
 })
 
+//menu rola até blog ou sobre
+
+const buttonsBlog = document.querySelectorAll('.buttonBlogMenu')
 
 
+const blogDestino = document.querySelector('.blog')
 
+buttonsBlog.forEach(buttonBlog => {
+    buttonBlog.addEventListener('click', () => {
+        blogDestino.scrollIntoView({behavior:"smooth"})
+
+    })
+})
 
 
 // botões navegação escolha de roupa
@@ -123,21 +141,4 @@ openButton.addEventListener('click', () => {
 // fechar o menu
 closeButton.addEventListener('click', () => {
     menuAberto.classList.remove('navbar__nav__toggle--is-active');
-});
-
-
-//esconder barra de rolagem menu
-
-const container = document.querySelectorAll('.navegador__botoes__items__item');
-const posicaoContainer = container.offset;
-
-window.addEventListener('scroll', () => {
-
-    const posicaoScroll = window.pageYOffset || document.documentElement.scrollTop;
-    const pontoDeDesaparecimento = posicaoContainer - 500;
-    if (posicaoScroll > pontoDeDesaparecimento) {
-        container.classList.add('escondido'); // Adiciona a classe para esconder
-    } else {
-        container.classList.remove('escondido'); // Remove a classe para reaparecer
-    }
 });

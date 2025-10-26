@@ -43,33 +43,15 @@
     }
 
     /* container que envolve toda a barra */
-    .navegador__botoes {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-        /* importante para esconder scroll bar */
-        background: transparent;
-    }
+
+
+
+
+
+
+
 
     /* a lista principal dos botões (esta é a parte que rola) */
-    .navegador__botoes {
-        display: flex;
-        padding: 5px 16px;
-        margin: 0;
-        list-style: none;
-        overflow-x: auto;
-        white-space: nowrap;
-        scroll-behavior: smooth;
-        -webkit-overflow-scrolling: touch;
-        scrollbar-width: none;
-        /* firefox */
-        -ms-overflow-style: none;
-
-        &__items {
-            width: 100%;
-        }
-    }
-
 
     .navbar {
         display: flex;
@@ -159,15 +141,29 @@
     }
 
     .navegador {
+        
         &__botoes {
+            max-width: 100%;
+            width: 100%;
+            overflow-y: auto;
+            
+
             &__items {
                 max-width: 100%;
                 margin: 0 auto;
                 padding: 0;
-
+                
                 &__item {
+                    display: block;
+                    
                     button {
+                        
+                        width: 65px;
                         background-color: none;
+                    }
+
+                    .listaa {
+                        overflow-x: visible;
                     }
 
                     .lista {
@@ -177,12 +173,6 @@
                     }
                 }
             }
-        }
-    }
-
-    .navegador__botoes__items__item {
-        button {
-            width: 65px;
         }
     }
 
@@ -304,6 +294,12 @@
         justify-content: end;
     }
 
+    .navegador {
+        &__botoes {
+            overflow-x: hidden;
+        }
+    }
+
 
 
     .navegador__botoes__items__item {
@@ -322,6 +318,7 @@
     }
 
     .blog {
+
         &__container {
             display: flex;
             flex-direction: column;
@@ -371,25 +368,14 @@
     .navegador {
         &__botoes {
             &__items {
-                overflow-x: auto;
 
+                margin: 0;
+            }
+
+            &__items::-webkit-scrollbar {
+                width: 0px;
+                display: none;
             }
         }
-    }
-
-    .navegador__scrool-arrow {
-        position: sticky;
-        right: 0;
-        z-index: 1;
-        display: block;
-        transition: opacity 0.5s ease-in-out;
-    }
-
-    .navegador__scrool-arrow-left {
-        position: sticky;
-        left: 0;
-        z-index: 1;
-        display: block;
-        transition: opacity 0.5s ease-in-out;
     }
 }

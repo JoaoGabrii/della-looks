@@ -2,9 +2,22 @@
 @use "../abstracts/mixins"as *;
 
 #blog {
-  background-color: $backTittleBlog;
-  text-align: center;
-  h2 {
+  
+  
+}
+
+.blog {
+  scroll-margin-top: 100px; 
+}
+
+.blog {
+  
+  width: 100%;
+  margin: 0 auto;
+  background-color: $backBlog;
+
+  &__tittle{
+    h2 {
     font-family: $titleFont;
     @include h1();
     color: $tittleColorBlog;
@@ -13,14 +26,9 @@
     margin: 0;
     text-align: center;
   }
-}
-
-.blog {
-  padding-top: 5%;
-  width: 100%;
-  margin: 0 auto;
-  background-color: $backBlog;
-
+    display: block;
+    margin: 5%;
+  }
 
   &__container {
     display: flex;

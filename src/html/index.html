@@ -27,7 +27,7 @@
         <ul class="menu__itemss__items">
           <li class="menu__itemss__items__item"><a href="#">Inicio</a></li>
           <li class="menu__itemss__items__item"><a href="#">Sobre</a></li>
-          <li class="menu__itemss__items__item"><a href="#blog">Blog</a></li>
+          <li class="menu__itemss__items__item buttonBlogMenu"><a href="#">Blog</a></li>
         </ul>
       </div>
       <nav class="navbar">
@@ -43,7 +43,7 @@
           <ul>
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Sobre</a></li>
-            <li><a href="#blog">Blog</a></li>
+            <li><a class="buttonBlogMenu" href="#">Blog</a></li>
           </ul>
           <div class="redes">
             <ul class="redes__items">
@@ -63,7 +63,7 @@
         <ul class="menu-items">
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Sobre</a></li>
-          <li><a href="#blog">Blog</a></li>
+          <li><a class="buttonBlogMenu" href="#">Blog</a></li>
         </ul>
       </nav>
     </div>
@@ -88,30 +88,33 @@
   </section>
 
   <section id="navbar" class="navegador">
-    <div class="">
+    <div class="container setas-menu">
+      <div class="navegador__scrool-arrow-left">
+        <img src="../image/icons/left.png" alt="">
+      </div>
       <nav class="navegador__botoes">
         <ul class="navegador__botoes__items">
-          <div class="navegador__scrool-arrow-left">
-            <img src="../image/icons/left.png" alt="seta para o lado esquerdo">
-          </div>
           <li class="navegador__botoes__items__item">
             <button data-target="#roupas-lista">Roupas</button>
-            <ul id="roupas-lista" class="lista">
-              <li class="lista__item">
-                <button data-tab-button="vestidos">Vestidos</button>
-              </li>
-              <li class="lista__item">
-                <button data-tab-button="macacoes">Macacões</button>
-              </li>
-              <li class="lista__item">
-                <button data-tab-button="saias">Saias</button>
-              </li>
-            </ul>
+            <div class="listaa">
+              <ul id="roupas-lista" class="lista">
+                <li class="lista__item">
+                  <button data-tab-button="vestidos">Vestidos</button>
+                </li>
+                <li class="lista__item">
+                  <button data-tab-button="macacoes">Macacões</button>
+                </li>
+                <li class="lista__item">
+                  <button data-tab-button="saias">Saias</button>
+                </li>
+              </ul>
+            </div>
           </li>
 
           <li class="navegador__botoes__items__item">
             <button data-target="#calcados-lista">Calçados</button>
-            <ul id="calcados-lista" class="lista">
+            <div class="listaa">
+                          <ul id="calcados-lista" class="lista">
               <li class="lista__item">
                 <button data-tab-button="sapatos">Sapatos</button>
               </li>
@@ -122,11 +125,13 @@
                 <button data-tab-button="chinelos">Chinelos</button>
               </li>
             </ul>
+            </div>
           </li>
 
           <li class="navegador__botoes__items__item">
             <button data-target="#bolsas-lista">Bolsas</button>
-            <ul id="bolsas-lista" class="lista">
+            <div class="listaa">
+                          <ul id="bolsas-lista" class="lista">
               <li class="lista__item">
                 <button data-tab-button="a">a</button>
               </li>
@@ -137,11 +142,13 @@
                 <button data-tab-button="c">c</button>
               </li>
             </ul>
+            </div>
           </li>
 
           <li class="navegador__botoes__items__item">
             <button data-target="#oculos-lista">Óculos</button>
-            <ul id="oculos-lista" class="lista">
+            <div class="listaa">
+                          <ul id="oculos-lista" class="lista">
               <li class="lista__item">
                 <button data-tab-button="d">d</button>
               </li>
@@ -152,11 +159,13 @@
                 <button data-tab-button="f">f</button>
               </li>
             </ul>
+            </div>
           </li>
 
           <li class="navegador__botoes__items__item">
             <button data-target="#oculos-lista">Óculos</button>
-            <ul id="oculos-lista" class="lista">
+            <div class="listaa">
+                          <ul id="oculos-lista" class="lista">
               <li class="lista__item">
                 <button data-tab-button="d">d</button>
               </li>
@@ -167,11 +176,13 @@
                 <button data-tab-button="f">f</button>
               </li>
             </ul>
+            </div>
           </li>
 
           <li class="navegador__botoes__items__item">
             <button data-target="#oculos-lista">Óculos</button>
-            <ul id="oculos-lista" class="lista">
+            <div class="listaa">
+                          <ul id="oculos-lista" class="lista">
               <li class="lista__item">
                 <button data-tab-button="d">d</button>
               </li>
@@ -182,11 +193,13 @@
                 <button data-tab-button="f">f</button>
               </li>
             </ul>
+            </div>
           </li>
 
           <li class="navegador__botoes__items__item">
             <button data-target="#oculos-lista">Óculos</button>
-            <ul id="oculos-lista" class="lista">
+            <div class="listaa">
+                          <ul id="oculos-lista" class="lista">
               <li class="lista__item">
                 <button data-tab-button="d">d</button>
               </li>
@@ -197,11 +210,13 @@
                 <button data-tab-button="f">f</button>
               </li>
             </ul>
+            </div>
           </li>
 
           <li class="navegador__botoes__items__item">
             <button data-target="#oculos-lista">Óculos</button>
-            <ul id="oculos-lista" class="lista">
+            <div class="listaa">
+                          <ul id="oculos-lista" class="lista">
               <li class="lista__item">
                 <button data-tab-button="d">d</button>
               </li>
@@ -212,11 +227,13 @@
                 <button data-tab-button="f">f</button>
               </li>
             </ul>
+            </div>
           </li>
 
           <li class="navegador__botoes__items__item">
             <button data-target="#oculos-lista">Óculos</button>
-            <ul id="oculos-lista" class="lista">
+            <div class="listaa">
+                          <ul id="oculos-lista" class="lista">
               <li class="lista__item">
                 <button data-tab-button="d">d</button>
               </li>
@@ -227,850 +244,854 @@
                 <button data-tab-button="f">f</button>
               </li>
             </ul>
+            </div>
           </li>
-
-          <div class="navegador__scrool-arrow">
-            <img src="../image/icons/right.png" alt="seta para o lado direito">
-          </div>
         </ul>
+
       </nav>
+      <div class="navegador__scrool-arrow">
+        <img src="icons/right2.png" alt="">
+      </div>
     </div>
   </section>
 
   <main>
 
-    <section data-tab-id="vestidos" class="roupa roupa--is-active">
-      <div class="container">
-        <ul class="roupa__items">
-          <li class="roupa__items__item">
-            <img class="roupa__items__item__imagem__img-default" src="../image/products/roupas/vestido1.png" alt="" />
-            <img class="roupa__items__item__imagem__img-hover" src="../image/products/roupas/vestido1costa.png" alt="">
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="https://mercadolivre.com/sec/2WrvLqx">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section data-tab-id="macacoes" class="roupa">
-      <div class="container">
-        <ul class="roupa__items">
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//30x400" alt="" />
-            <h3>Casaco de verão</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section data-tab-id="saias" class="roupa">
-      <div class="container">
-        <ul class="roupa__items">
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//100x400" alt="" />
-            <h3>Casaco de outono</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-        </ul>
-    </section>
-    <section data-tab-id="sapatos" class="roupa">
-      <div class="container">
-        <ul class="roupa__items">
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>Casaco de outono</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-        </ul>
-    </section>
-    <section data-tab-id="sandalias" class="roupa">
-      <div class="container">
-        <ul class="roupa__items">
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//100x400" alt="" />
-            <h3>Casaco de outono</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-        </ul>
-    </section>
-    <section data-tab-id="chinelos" class="roupa">
-      <div class="container">
-        <ul class="roupa__items">
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//100x400" alt="" />
-            <h3>Casaco de outono</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-        </ul>
-    </section>
+    <div id="todas-roupas">
+      <section data-tab-id="vestidos" class="roupa roupa--is-active">
+        <div class="container">
+          <ul class="roupa__items">
+            <li class="roupa__items__item">
+              <img class="roupa__items__item__imagem__img-default" src="../image/products/roupas/vestido1.png" alt="" />
+              <img class="roupa__items__item__imagem__img-hover" src="../image/products/roupas/vestido1costa.png"
+                alt="">
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="https://mercadolivre.com/sec/2WrvLqx">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section data-tab-id="macacoes" class="roupa">
+        <div class="container">
+          <ul class="roupa__items">
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//30x400" alt="" />
+              <h3>Casaco de verão</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section data-tab-id="saias" class="roupa">
+        <div class="container">
+          <ul class="roupa__items">
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//100x400" alt="" />
+              <h3>Casaco de outono</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+          </ul>
+      </section>
+      <section data-tab-id="sapatos" class="roupa">
+        <div class="container">
+          <ul class="roupa__items">
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>Casaco de outono</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+          </ul>
+      </section>
+      <section data-tab-id="sandalias" class="roupa">
+        <div class="container">
+          <ul class="roupa__items">
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//100x400" alt="" />
+              <h3>Casaco de outono</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+          </ul>
+      </section>
+      <section data-tab-id="chinelos" class="roupa">
+        <div class="container">
+          <ul class="roupa__items">
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//100x400" alt="" />
+              <h3>Casaco de outono</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+          </ul>
+      </section>
 
 
-    <section data-tab-id="a" class="roupa">
-      <div class="container">
-        <ul class="roupa__items">
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>Casaco de outono</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-        </ul>
-    </section>
-    <section data-tab-id="b" class="roupa">
-      <div class="container">
-        <ul class="roupa__items">
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//100x400" alt="" />
-            <h3>Casaco de outono</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-        </ul>
-    </section>
-    <section data-tab-id="c" class="roupa">
-      <div class="container">
-        <ul class="roupa__items">
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//100x400" alt="" />
-            <h3>Casaco de outono</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-        </ul>
-    </section>
+      <section data-tab-id="a" class="roupa">
+        <div class="container">
+          <ul class="roupa__items">
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>Casaco de outono</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+          </ul>
+      </section>
+      <section data-tab-id="b" class="roupa">
+        <div class="container">
+          <ul class="roupa__items">
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//100x400" alt="" />
+              <h3>Casaco de outono</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+          </ul>
+      </section>
+      <section data-tab-id="c" class="roupa">
+        <div class="container">
+          <ul class="roupa__items">
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//100x400" alt="" />
+              <h3>Casaco de outono</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+          </ul>
+      </section>
 
 
-    <section data-tab-id="d" class="roupa">
-      <div class="container">
-        <ul class="roupa__items">
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>Casaco de outono</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-        </ul>
-    </section>
-    <section data-tab-id="e" class="roupa">
-      <div class="container">
-        <ul class="roupa__items">
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//100x400" alt="" />
-            <h3>Casaco de outono</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-        </ul>
-    </section>
-    <section data-tab-id="f" class="roupa">
-      <div class="container">
-        <ul class="roupa__items">
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//100x400" alt="" />
-            <h3>Casaco de outono</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-          <li class="roupa__items__item">
-            <img src="https:dummyimage.com//300x400" alt="" />
-            <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
-            <div class="roupa__items__item__div">
-              <span class="roupa__items__item__div__preco">R$200,00</span>
-              <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
-            </div>
-            <a href="#">Compre agora</a>
-          </li>
-        </ul>
-    </section>
+      <section data-tab-id="d" class="roupa">
+        <div class="container">
+          <ul class="roupa__items">
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>Casaco de outono</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+          </ul>
+      </section>
+      <section data-tab-id="e" class="roupa">
+        <div class="container">
+          <ul class="roupa__items">
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//100x400" alt="" />
+              <h3>Casaco de outono</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+          </ul>
+      </section>
+      <section data-tab-id="f" class="roupa">
+        <div class="container">
+          <ul class="roupa__items">
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//100x400" alt="" />
+              <h3>Casaco de outono</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+            <li class="roupa__items__item">
+              <img src="https:dummyimage.com//300x400" alt="" />
+              <h3>CALÇA WIDE LEG EM OXFORD DE ALGODÃO</h3>
+              <div class="roupa__items__item__div">
+                <span class="roupa__items__item__div__preco">R$200,00</span>
+                <span class="roupa__items__item__div__parcela">10x de R$ 20,00</span>
+              </div>
+              <a href="#">Compre agora</a>
+            </li>
+          </ul>
+      </section>
+    </div>
 
 
 
@@ -1079,12 +1100,11 @@
 
 
     <section id="blog">
-
-      <h2>Della Blog</h2>
       <div class="blog">
-
+        <div class="blog__tittle">
+          <h2>Della Blog</h2>
+        </div>
         <div class="container blog__container">
-
           <div class="blog__container__destaque">
             <div class="blog__container__destaque__imagem">
               <img src="https:dummyimage.com/500x600" alt="imagem destaque">

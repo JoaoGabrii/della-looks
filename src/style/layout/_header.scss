@@ -72,42 +72,59 @@ header {
   }
 }
 
-.escondido {
-  opacity: 0; /* Torna o elemento invisível */
-  pointer-events: none; /* Impede a interação com o elemento invisível */
+.navegador__scrool-arrow-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .navegador__scrool-arrow {
-  
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.navegador__scrool-arrow-left {
-  position: sticky;
-  left: 0;
-  z-index: 1;
-  
+.setas-menu {
+  display: flex;
+  justify-content: space-between;
 }
 
 .navegador {
   background-color: $headerFooter;
-
+  
+  
   &__botoes {
-
+    max-width: 100%;
+    width: 100%;
+    min-height: 35px;
+    display: flex;
+    padding: 5px 16px;
+    margin: 0;
+    list-style: none;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    
+    
     &__items {
-      max-width: 90%;
+      max-width: 100%;
+      width: 100%;
       margin: 0 auto;
       text-align: center;
-      padding: 0.5rem 0;
       display: flex;
       justify-content: space-around;
       list-style-type: none;
-
+      
+      
       &__item {
         padding: 0 1rem;
         padding: 0px;
         margin: 0px;
-
+        width: 100%;
+        
+        
         button {
           border: none;
           background: none;
@@ -116,6 +133,7 @@ header {
           color: $colorMenu;
           @include titleBrilho();
           margin: 0 5px;
+
           &::after {
             @include underlineEfect();
           }
@@ -127,15 +145,36 @@ header {
 
 
         //lista de opções de roupas
+        .listaa {
+          position: relative;
+          max-width: 90%;
+          width: 100%;
+          margin: 0 auto;
+          display: flex;
+          justify-content: center;
+          margin-top: 3%;
+        }
+
         .lista {
+          max-width: 90%;
+          width: 100%;
           display: none;
+          
+          margin: 0 auto;
+          position: absolute;
+          
 
           &__item {
+            
             list-style-type: none;
+            button {
+              color: $buttonColorMain;
+            }
           }
 
           &-is--active {
             display: block;
+            
           }
         }
       }
