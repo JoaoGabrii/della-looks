@@ -141,11 +141,11 @@
     }
 
     .navegador {
-        
+        position: relative;
         &__botoes {
             max-width: 100%;
             width: 100%;
-            overflow-y: auto;
+           
             
 
             &__items {
@@ -163,7 +163,7 @@
                     }
 
                     .listaa {
-                        overflow-x: visible;
+                        
                     }
 
                     .lista {

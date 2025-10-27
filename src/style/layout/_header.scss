@@ -89,25 +89,38 @@ header {
   justify-content: space-between;
 }
 
+.navegador::-webkit-scrollbar {
+  display: none;
+}
+
+
+
 .navegador {
   background-color: $headerFooter;
-  
-  
+  position: relative;
+
+
+
   &__botoes {
-    max-width: 100%;
+    position: absolute;
+    overflow-y: visible;
+    overflow-x: auto;
+    max-width: 1300px;
     width: 100%;
     min-height: 35px;
     display: flex;
     padding: 5px 16px;
-    margin: 0;
+    margin: 0 auto;
     list-style: none;
     white-space: nowrap;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    
-    
+    left: 50%;
+    transform: translateX(-50%);
+    top: -4px;
+
     &__items {
       max-width: 100%;
       width: 100%;
@@ -116,15 +129,15 @@ header {
       display: flex;
       justify-content: space-around;
       list-style-type: none;
-      
-      
+
+
       &__item {
         padding: 0 1rem;
         padding: 0px;
         margin: 0px;
         width: 100%;
-        
-        
+
+
         button {
           border: none;
           background: none;
@@ -132,7 +145,7 @@ header {
           @include linkbutton();
           color: $colorMenu;
           @include titleBrilho();
-          margin: 0 5px;
+          margin: 0 10px;
 
           &::after {
             @include underlineEfect();
@@ -146,7 +159,6 @@ header {
 
         //lista de opções de roupas
         .listaa {
-          position: relative;
           max-width: 90%;
           width: 100%;
           margin: 0 auto;
@@ -159,14 +171,11 @@ header {
           max-width: 90%;
           width: 100%;
           display: none;
-          
           margin: 0 auto;
-          position: absolute;
-          
 
           &__item {
-            
             list-style-type: none;
+
             button {
               color: $buttonColorMain;
             }
@@ -174,7 +183,6 @@ header {
 
           &-is--active {
             display: block;
-            
           }
         }
       }
