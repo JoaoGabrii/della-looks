@@ -76,14 +76,14 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
 }
 
 .navegador__scrool-arrow {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
 }
 
 .setas-menu {
@@ -148,6 +148,7 @@ header {
           @include linkbutton();
           color: $colorMenu;
           @include titleBrilho();
+
           &::after {
             @include underlineEfect();
           }
@@ -161,26 +162,32 @@ header {
         //lista de opções de roupas
         .listaa {
           max-width: 90%;
-          width: 100%;
+          width: 75px;
           margin: 0 auto;
           display: flex;
           justify-content: center;
           margin-top: 3%;
-          background-color: #33333351;
+          background-color: $colorMenuButtons;
           border-radius: 5%;
+          
         }
 
         .lista {
-          max-width: 90%;
+          max-width: 100%;
           width: 100%;
           display: none;
           margin: 0 auto;
 
           &__item {
             list-style-type: none;
-
+            max-width: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
             button {
-              color: $buttonColorMain;
+              color:white;
+              
             }
           }
 

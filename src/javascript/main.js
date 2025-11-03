@@ -86,11 +86,6 @@ buttonsNavegacao.forEach(buttonNavegacao => {
     })
 })
 
-
-
-
-
-
 // botão mostra a categoria de roupa selecionada
 const buttonsLista = document.querySelectorAll('[data-tab-button]');
 
