@@ -133,29 +133,28 @@
 
     .navegador {
         position: relative;
+
         &__botoes {
             max-width: 100%;
             width: 100%;
-            
-            
+
+
 
             &__items {
                 max-width: 100%;
                 margin: 0 auto;
                 padding: 0;
-                
+
                 &__item {
                     display: block;
-                    
+
                     button {
-                        
+
                         width: 65px;
                         background-color: none;
                     }
 
-                    .listaa {
-                        
-                    }
+                    .listaa {}
 
                     .lista {
                         &__item {
@@ -163,6 +162,8 @@
                         }
                     }
                 }
+
+
             }
         }
     }
@@ -172,12 +173,39 @@
         &__items {
             display: flex;
             justify-content: space-around;
+
+            &__item {
+                &__troca-de-foto {
+                    display: none;
+                }
+
+                &__imagem {
+                    display: block;
+ 
+                    &__img-default--active {
+                        opacity: 1;
+                    }
+                    
+                    &__img-default:hover {
+                        opacity:1;
+                    }
+                    
+                    &__img-hover {
+                        opacity: 1;
+                    }
+                    
+                    &__img-hover--desactive {
+                        display: none;
+                    }
+
+                }
+            }
+
         }
 
     }
 
     .blog {
-
         padding-bottom: 10%;
 
         &__container {

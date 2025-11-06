@@ -25,11 +25,6 @@ function showNextSlide() {
 setInterval(showNextSlide, 5000)
 
 
-
-
-
-
-
 // navegação acompanha a rolagem da página. melhorar
 const navbar = document.querySelector('#navbar')
 
@@ -49,16 +44,35 @@ window.addEventListener("scroll", () => {
     }
 })
 
+//mostra 2º imagem da roupa ao clicar
+const imgsClick = document.querySelectorAll('.images--troca')
+const imgHover = document.querySelector('.roupa__items__item__imagem__img-hover')
+const imgDefault = document.querySelector('.roupa__items__item__imagem__img-default')
+
+imgsClick.forEach(selectionClass => {
+    selectionClass.addEventListener('click', (e) => {
+
+
+        if (imgHover.classList.contains('roupa__items__item__imagem__img-hover--desactive')) {
+            imgHover.classList.remove('roupa__items__item__imagem__img-hover--desactive')
+        } else {
+            imgHover.classList.add('roupa__items__item__imagem__img-hover--desactive')
+        }
+
+    })
+})
+
+
 //menu rola até blog ou sobre
 
 const buttonsBlog = document.querySelectorAll('.buttonBlogMenu')
-
-
 const blogDestino = document.querySelector('.blog')
 
 buttonsBlog.forEach(buttonBlog => {
     buttonBlog.addEventListener('click', () => {
-        blogDestino.scrollIntoView({behavior:"smooth"})
+        blogDestino.scrollIntoView({
+            behavior: "smooth"
+        })
 
     })
 })
