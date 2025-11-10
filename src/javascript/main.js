@@ -88,15 +88,13 @@ buttonsNavegacao.forEach(buttonNavegacao => {
         const listaOpcoes = document.querySelector(targetSelector); // seleciona e guarda o resultado de targetSelector ("#roupas-lista") selecionando o id do ul para adicionar a classe lista-is--active
         const listaUl = document.querySelectorAll('.lista') // seleciona todos elementos que contém lista na classe (4ul)
 
-        listaUl.forEach(l => {
-            if (listaOpcoes === l) {
-                if (l.classList.contains('lista-is--active')) {
-                    l.classList.remove('lista-is--active')
-                } else {
-                    l.classList.add('lista-is--active')
-                }
-            }
-        })
+        const isActive = listaOpcoes.classList.contains('lista-is--active')
+
+        listaUl.forEach(l => l.classList.remove('lista-is--active'))
+
+        if (!isActive) {
+            listaOpcoes.classList.add('lista-is--active')
+        }
     })
 })
 
