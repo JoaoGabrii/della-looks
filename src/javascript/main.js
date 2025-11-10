@@ -93,7 +93,7 @@ buttonsNavegacao.forEach(buttonNavegacao => {
         listaUl.forEach(l => l.classList.remove('lista-is--active'))
 
         if (!isActive) {
-            listaOpcoes.classList.add('lista-is--active')
+            listaOpcoes.classList.toggle('lista-is--active')
         }
     })
 })
