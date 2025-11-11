@@ -112,7 +112,7 @@ header {
     overflow-x: auto;
     max-width: 100%;
     width: 100%;
-    min-height: 100px;
+    min-height: 70px;
     display: flex;
     padding: 4px 16px;
     margin: 0 auto;
@@ -137,6 +137,7 @@ header {
 
 
       &__item {
+        height: 0px;
         padding: 0 5rem;
         padding: 0px;
         margin: 0 auto;
@@ -144,23 +145,17 @@ header {
 
 
         button {
-
           border: none;
-          background: none;
+          background: 0 0;
           cursor: pointer;
-          @include linkbutton();
-          color: $colorMenu;
-          @include titleBrilho();
-
-          &::after {
-            @include underlineEfect();
-          }
-
-          &:hover::after {
-            width: 100%;
-          }
+          text-decoration: none;
+          font-weight: 700;
+          position: relative;
+          display: inline-block;
+          cursor: pointer;
+          color: #fff;
+          filter: brightness(1.6);
         }
-
 
         //lista de opções de roupas
         .listaa {
@@ -192,9 +187,8 @@ header {
             display: flex;
             justify-content: center;
             align-items: center;
-            
             height: 30px;
-            background-color: #ff8e32;
+            background-color: #ff831e;
             margin-top: 1px;
             border-top: 1px solid;
             border-bottom: 1px solid black;
