@@ -1,3 +1,6 @@
+@use "../abstracts/variaveis"as *;
+@use "../abstracts/mixins"as *;
+
 // config geral
 @media (max-width:1400px) {
     header {
@@ -10,6 +13,80 @@
 // TABLET
 @media (max-width:1007px) {
 
+    .navegador {
+        background-color: $headerFooter;
+        position: relative;
+
+        &__botoes {
+            position: absolute;
+            overflow-y: visible;
+            overflow-x: auto;
+            max-width: 100%;
+            width: 100%;
+            min-height: 70px;
+            display: flex;
+            padding: 4px 16px;
+            margin: 0 auto;
+            list-style: none;
+            white-space: nowrap;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -4px;
+
+            &__items {
+                max-width: 100%;
+                width: 100%;
+                margin: 0 auto;
+                text-align: center;
+                display: flex;
+                justify-content: space-around;
+                list-style-type: none;
+
+
+                &__item {
+                    height: 0px;
+                    padding: 0 5rem;
+                    padding: 0px;
+                    margin: 0 auto;
+                    width: 100%;
+
+                    button {
+                        border: none;
+                        background: 0 0;
+                        cursor: pointer;
+                        text-decoration: none;
+                        font-weight: 700;
+                        position: relative;
+                        display: inline-block;
+                        cursor: pointer;
+                        color: $colorMenu;
+                        filter: brightness(1.6);
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            left: 50%;
+                            bottom: 0px;
+                            width: 0;
+                            height: 0px;
+                            background-color: currentColor;
+                            transition: all .3s ease;
+                            transform: translate(-50%)
+                        }
+
+                        &:hover::after {
+                            width: 0%
+                        }
+
+                    }
+                }
+            }
+        }
+    }
 
     .container {
         max-width: 1366px;
@@ -41,6 +118,22 @@
             }
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* a lista principal dos botões (esta é a parte que rola) */
 
@@ -181,19 +274,19 @@
 
                 &__imagem {
                     display: block;
- 
+
                     &__img-default--active {
                         opacity: 1;
                     }
-                    
+
                     &__img-default:hover {
-                        opacity:1;
+                        opacity: 1;
                     }
-                    
+
                     &__img-hover {
                         opacity: 1;
                     }
-                    
+
                     &__img-hover--desactive {
                         display: none;
                     }
