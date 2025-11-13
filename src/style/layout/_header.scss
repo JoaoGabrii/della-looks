@@ -192,6 +192,7 @@ header {
           transform: translateX(-100%);
 
 
+
           &__item {
             // botão do sub menu
             list-style-type: none;
@@ -201,7 +202,7 @@ header {
             justify-content: center;
             align-items: center;
             height: 30px;
-            background-color: #ff831e;
+            background-color: $backSubMenuRoupas;
             margin-top: 1px;
             border-top: 1px solid;
             border-bottom: 1px solid black;
@@ -213,6 +214,19 @@ header {
               flex-direction: column;
               justify-content: center;
             }
+          }
+
+          &__item.-calcados {
+            background-color: $backSubMenuCalcados;
+          }
+
+          &__item.-bolsas {
+            background-color: $backSubMenuBolsas;
+            
+          }
+
+          &__item.-oculos {
+            background-color: $backSubMenuOculos;
           }
 
           &-is--active {
