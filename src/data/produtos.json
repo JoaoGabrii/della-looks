@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "categoria": "Roupas",
+    "subcategoria": "Vestidos",
+    "nome": "Vestido Estampado Rovitex Rosa",
+    "preco": 48.29,
+    "imagem": "https://seusite.com/imagens/vestido1.jpg",
+    "imagem-verso":;,
+    "link": "https://seusite.com/produto/vestido-floral-vermelho"
+  },
+  {
+    "id": 2,
+    "categoria": "Roupas",
+    "subcategoria": "Vestidos",
+    "nome": "Vestido Azul Estampado",
+    "preco": 149.90,
+    "imagem": "https://seusite.com/imagens/vestido2.jpg",
+    "link": "https://seusite.com/produto/vestido-azul-estampado"
+  }
+]
