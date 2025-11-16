@@ -149,3 +149,56 @@ openButton.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
     menuAberto.classList.remove('navbar__nav__toggle--is-active');
 });
+
+
+
+
+
+
+
+//teste subir images polo json
+
+
+
+
+async function carregarCategoria(categoria) {
+  const req = await fetch('/data/produtos.json');
+  const data = await req.json();
+
+  const produtos = data[categoria];
+  const ul = document.querySelector('.roupa__items');
+
+  ul.innerHTML = '';
+
+  produtos.forEach(prod => {
+    ul.innerHTML += criarItem(prod);
+  });
+}
+
+
+
+
+function criarItem(prod) {
+  return `
+    <li class="roupa__items__item">
+      <img class="images--troca roupa__items__item__imagem__img-default" 
+           src="${prod.imgDefault}" 
+           alt="${prod.nome}" />
+
+      <img class="images--troca roupa__items__item__imagem__img-hover roupa__items__item__imagem__img-hover--desactive" 
+           src="${prod.imgHover}" 
+           alt="${prod.nome}" />
+
+      <h3>${prod.nome}</h3>
+
+      <div class="roupa__items__item__div">
+        <span class="roupa__items__item__div__preco">R$${prod.preco}</span>
+        <span class="roupa__items__item__div__parcela">${prod.parcela}</span>
+      </div>
+
+      <a target="_blank" href="${prod.link}">Compre agora</a>
+    </li>
+  `;
+}
+
+carregarCategoria("vestidos");
