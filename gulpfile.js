@@ -3,7 +3,7 @@ const gulp = require('gulp');
 const sass = require('gulp-dart-sass');
 const cleanCSS = require('gulp-clean-css');
 const uglify = require('gulp-uglify');
-const rename = require ('gulp-rename');
+const rename = require('gulp-rename');
 const htmlmin = require('gulp-htmlmin');
 const imagemin = require('gulp-imagemin');
 const sourcemaps = require('gulp-sourcemaps');
@@ -31,6 +31,11 @@ const paths = {
         src: 'src/image/**/*',
         dev: 'dev',
         dist: 'dist'
+    },
+    produtos: {
+        src: 'src/data/**/*.json',
+        dev: 'dev/data',
+        dist: 'dist/data'
     }
 };
 
@@ -41,7 +46,7 @@ function serve(done) {
             baseDir: 'dev'
         },
         startPath: 'index.html',
-        open:true,
+        open: true,
     });
     done();
 }
@@ -49,82 +54,100 @@ function serve(done) {
 //scss em css para dev
 function stylesDev() {
     return gulp.src(paths.styles.src)
-    .pipe(sourcemaps.init())
-    .pipe(sass().on('error',sass.logError))
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest(paths.styles.dev))
-    .pipe(browserSync.stream());
+        .pipe(sourcemaps.init())
+        .pipe(sass().on('error', sass.logError))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest(paths.styles.dev))
+        .pipe(browserSync.stream());
 }
 
 //scss em css minificado para dist
 function stylesDist() {
     return gulp.src(paths.styles.src)
-    .pipe(sass().on('error',sass.logError))
-    .pipe(cleanCSS())
-    .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest(paths.styles.dist));
+        .pipe(sass().on('error', sass.logError))
+        .pipe(cleanCSS())
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(gulp.dest(paths.styles.dist));
 }
 
 //html para dev
 function htmlDev() {
     return gulp.src(paths.html.src)
-    .pipe(replace('@@CSS_PATH@@', '/main.css'))
-    .pipe(replace('../image/', ''))
-    .pipe(replace('../javascript/', ''))
-    .pipe(gulp.dest(paths.html.dev))
-    .pipe(browserSync.stream());
+        .pipe(replace('@@CSS_PATH@@', '/main.css'))
+        .pipe(replace('../image/', ''))
+        .pipe(replace('../javascript/', ''))
+        .pipe(gulp.dest(paths.html.dev))
+        .pipe(browserSync.stream());
 }
 
 //html em minificado para dist
 function htmlDist() {
     return gulp.src(paths.html.src)
-    .pipe(replace('@@CSS_PATH@@', '/main.min.css'))
-    .pipe(replace('../image/', ''))
-    .pipe(replace('../javascript/main.js', 'main.min.js'))
-    .pipe(htmlmin({collapseWhitespace:true}))
-    .pipe(gulp.dest(paths.html.dist));
+        .pipe(replace('@@CSS_PATH@@', '/main.min.css'))
+        .pipe(replace('../image/', ''))
+        .pipe(replace('../javascript/main.js', 'main.min.js'))
+        .pipe(htmlmin({
+            collapseWhitespace: true
+        }))
+        .pipe(gulp.dest(paths.html.dist));
 }
 
 //javascript para dev 
 function scriptsDev() {
     return gulp.src(paths.scripts.src)
-    .pipe(gulp.dest(paths.scripts.dev))
-    .pipe(browserSync.stream());
+        .pipe(gulp.dest(paths.scripts.dev))
+        .pipe(browserSync.stream());
 }
 
 //javascript em minificado para dist
 function scriptsDist() {
     return gulp.src(paths.scripts.src)
-    .pipe(uglify())
-    .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest(paths.scripts.dist));
+        .pipe(uglify())
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(gulp.dest(paths.scripts.dist));
 }
 
 //imagens para dev
 function imagesDev() {
     return gulp.src(paths.images.src)
-    .pipe(imagemin())
-    .pipe(gulp.dest(paths.images.dev));
+        .pipe(imagemin())
+        .pipe(gulp.dest(paths.images.dev));
 }
 
 //images para dist
 function imagesDist() {
     return gulp.src(paths.images.src)
-    .pipe(imagemin())
-    .pipe(gulp.dest(paths.images.dist));
+        .pipe(imagemin())
+        .pipe(gulp.dest(paths.images.dist));
 }
 
 //watch para desenvolvimento
 function watchFiles() {
-    gulp.watch(paths.styles.src,stylesDev);
-    gulp.watch(paths.html.src,htmlDev);
-    gulp.watch(paths.scripts.src,scriptsDev);
-    gulp.watch(paths.scripts.src,imagesDev);
+    gulp.watch(paths.styles.src, stylesDev);
+    gulp.watch(paths.html.src, htmlDev);
+    gulp.watch(paths.scripts.src, scriptsDev);
+    gulp.watch(paths.scripts.src, imagesDev);
+}
+
+
+function dataDev() {
+    return gulp.src(paths.produtos.src)
+        .pipe(gulp.dest(paths.produtos.dev));
+}
+
+function dataDist() {
+    return gulp.src(paths.produtos.src)
+        .pipe(gulp.dest(paths.produtos.dist));
 }
 
 //tasks
-const dev = gulp.series(serve, imagesDev ,stylesDev, htmlDev, scriptsDev, watchFiles);
-const build = gulp.series(stylesDist, htmlDist, scriptsDist, imagesDist);
+const dev = gulp.series(serve,imagesDev, stylesDev, htmlDev, scriptsDev, dataDev, watchFiles);
+const build = gulp.series(stylesDist, htmlDist, scriptsDist,dataDist, imagesDist);
+
 
 //Exportar
 exports.dev = dev; // npm run gulp dev
