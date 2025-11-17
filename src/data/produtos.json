@@ -23,6 +23,14 @@
       "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido3.png",
       "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido3verso.png",
       "link": "https://mercadolivre.com/sec/2fdRkt3"
+    },
+    {
+      "nome": "Vestido Feminino Estampado Select Rosa",
+      "preco": "38.99",
+      "parcela": "2x de 19.50 sem juros",
+      "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido4.png",
+      "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido4verso.png",
+      "link": "https://mercadolivre.com/sec/1MVTBiK"
     }
     
   ]
