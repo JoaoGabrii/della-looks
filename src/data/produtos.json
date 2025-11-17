@@ -31,6 +31,14 @@
       "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido4.png",
       "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido4verso.png",
       "link": "https://mercadolivre.com/sec/1MVTBiK"
+    },
+    {
+      "nome": "Vestido Feminino Curto De Viscose Select Azul",
+      "preco": "56.59",
+      "parcela": "2x de 28.30 sem juros",
+      "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido5.png",
+      "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido5verso.png",
+      "link": "https://mercadolivre.com/sec/1k75PHK"
     }
     
   ]
