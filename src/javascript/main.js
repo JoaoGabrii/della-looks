@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', () => {
+
 //slide passa sozinho
 const slidesItems = document.querySelector('.hero__content__items')
 const slidesItem = document.querySelectorAll('.hero__content__items__item')
@@ -204,3 +206,7 @@ imgsClick.forEach(selectionClass => {
 
     })
 })
+
+
+}
+)
