@@ -15,6 +15,15 @@
       "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido2.png",
       "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido2verso.png",
       "link": "https://mercadolivre.com/sec/1BDhCGr"
+    },
+    {
+      "nome": "Vestido Estampado Rovitex Verde",
+      "preco": "47.29",
+      "parcela": "2x de 26.69 sem juros",
+      "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido3.png",
+      "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido3verso.png",
+      "link": "https://mercadolivre.com/sec/2fdRkt3"
     }
+    
   ]
 }
