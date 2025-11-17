@@ -27,6 +27,20 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(showNextSlide, 5000)
 
 
+    
+document.addEventListener('click', (e) => {
+    if (e.target.classList.contains('images--troca')) {
+
+        const item = e.target.closest('.roupa__items__item');
+
+        const imgDefault = item.querySelector('.roupa__items__item__imagem__img-default');
+        const imgHover = item.querySelector('.roupa__items__item__imagem__img-hover');
+
+        imgHover.classList.toggle('roupa__items__item__imagem__img-hover--desactive');
+    }
+});
+
+
     // navegação acompanha a rolagem da página. melhorar
     const navbar = document.querySelector('#navbar')
 
@@ -192,22 +206,6 @@ document.addEventListener('DOMContentLoaded', () => {
     //mostra 2º imagem da roupa ao clicar
 
 
+   
 
-})
-
-const imgsClick = document.querySelectorAll('.images--troca')
-const imgHover = document.querySelector('.roupa__items__item__imagem__img-hover')
-const imgDefault = document.querySelector('.roupa__items__item__imagem__img-default')
-
-imgsClick.forEach(selectionClass => {
-    selectionClass.addEventListener('click', (e) => {
-
-
-        if (imgHover.classList.contains('roupa__items__item__imagem__img-hover--desactive')) {
-            imgHover.classList.remove('roupa__items__item__imagem__img-hover--desactive')
-        } else {
-            imgHover.classList.add('roupa__items__item__imagem__img-hover--desactive')
-        }
-
-    })
 })
