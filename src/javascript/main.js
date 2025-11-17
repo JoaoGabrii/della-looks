@@ -44,23 +44,6 @@ window.addEventListener("scroll", () => {
     }
 })
 
-//mostra 2º imagem da roupa ao clicar
-const imgsClick = document.querySelectorAll('.images--troca')
-const imgHover = document.querySelector('.roupa__items__item__imagem__img-hover')
-const imgDefault = document.querySelector('.roupa__items__item__imagem__img-default')
-
-imgsClick.forEach(selectionClass => {
-    selectionClass.addEventListener('click', (e) => {
-
-
-        if (imgHover.classList.contains('roupa__items__item__imagem__img-hover--desactive')) {
-            imgHover.classList.remove('roupa__items__item__imagem__img-hover--desactive')
-        } else {
-            imgHover.classList.add('roupa__items__item__imagem__img-hover--desactive')
-        }
-
-    })
-})
 
 
 //menu rola até blog ou sobre
@@ -202,3 +185,22 @@ function criarItem(prod) {
 }
 
 carregarCategoria("vestidos");
+
+
+//mostra 2º imagem da roupa ao clicar
+const imgsClick = document.querySelectorAll('.images--troca')
+const imgHover = document.querySelector('.roupa__items__item__imagem__img-hover')
+const imgDefault = document.querySelector('.roupa__items__item__imagem__img-default')
+
+imgsClick.forEach(selectionClass => {
+    selectionClass.addEventListener('click', (e) => {
+
+
+        if (imgHover.classList.contains('roupa__items__item__imagem__img-hover--desactive')) {
+            imgHover.classList.remove('roupa__items__item__imagem__img-hover--desactive')
+        } else {
+            imgHover.classList.add('roupa__items__item__imagem__img-hover--desactive')
+        }
+
+    })
+})
