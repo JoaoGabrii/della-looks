@@ -1,170 +1,170 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-//slide passa sozinho
-const slidesItems = document.querySelector('.hero__content__items')
-const slidesItem = document.querySelectorAll('.hero__content__items__item')
-let currentIndex = 0
-const radio = document.querySelectorAll('.hero__content__radios__radio')
+    //slide passa sozinho
+    const slidesItems = document.querySelector('.hero__content__items')
+    const slidesItem = document.querySelectorAll('.hero__content__items__item')
+    let currentIndex = 0
+    const radio = document.querySelectorAll('.hero__content__radios__radio')
 
-function showNextSlide() {
+    function showNextSlide() {
 
 
 
-    const viewportWidth = slidesItem[0].clientWidth //largura da página em tempo real
+        const viewportWidth = slidesItem[0].clientWidth //largura da página em tempo real
 
-    currentIndex++; // adiciona + 1 na variavel a cada vez que passa
+        currentIndex++; // adiciona + 1 na variavel a cada vez que passa
 
-    if (currentIndex >= slidesItem.length) {
-        currentIndex = 0; // transforma a variavel em 0, assim que chega no limite do length
+        if (currentIndex >= slidesItem.length) {
+            currentIndex = 0; // transforma a variavel em 0, assim que chega no limite do length
+        }
+
+        const offset = -currentIndex * viewportWidth; // alterar para a largura da página em tempo real
+
+        slidesItems.style.transform = `translateX(${offset}px)`;
+
     }
 
-    const offset = -currentIndex * viewportWidth; // alterar para a largura da página em tempo real
-
-    slidesItems.style.transform = `translateX(${offset}px)`;
-
-}
-
-setInterval(showNextSlide, 5000)
+    setInterval(showNextSlide, 5000)
 
 
-// navegação acompanha a rolagem da página. melhorar
-const navbar = document.querySelector('#navbar')
+    // navegação acompanha a rolagem da página. melhorar
+    const navbar = document.querySelector('#navbar')
 
-const alturaMenu = document.querySelector('.menu')
-const alturaHero = document.querySelector('.hero')
+    const alturaMenu = document.querySelector('.menu')
+    const alturaHero = document.querySelector('.hero')
 
-const alturaMenuLimite = alturaMenu.offsetHeight
-const alturaHeroLimite = alturaHero.offsetHeight
+    const alturaMenuLimite = alturaMenu.offsetHeight
+    const alturaHeroLimite = alturaHero.offsetHeight
 
-const menuHero = alturaMenuLimite + alturaHeroLimite
+    const menuHero = alturaMenuLimite + alturaHeroLimite
 
-window.addEventListener("scroll", () => {
-    if (window.scrollY > menuHero) {
-        navbar.classList.add('fixed')
-    } else {
-        navbar.classList.remove('fixed')
-    }
-})
-
-
-
-//menu rola até blog ou sobre
-
-const buttonsBlog = document.querySelectorAll('.buttonBlogMenu')
-const blogDestino = document.querySelector('.blog')
-
-buttonsBlog.forEach(buttonBlog => {
-    buttonBlog.addEventListener('click', () => {
-        blogDestino.scrollIntoView({
-            behavior: "smooth"
-        })
-
-    })
-})
-
-
-// botões navegação escolha de roupa
-const buttonsNavegacao = document.querySelectorAll('[data-target]')
-
-buttonsNavegacao.forEach(buttonNavegacao => {
-    buttonNavegacao.addEventListener('click', () => {
-
-        const targetSelector = buttonNavegacao.getAttribute('data-target'); // resgata e guarda o nome do data-target= "#...", no caso ("#roupas-lista")
-        const listaOpcoes = document.querySelector(targetSelector); // seleciona e guarda o resultado de targetSelector ("#roupas-lista") selecionando o id do ul para adicionar a classe lista-is--active
-        const listaUl = document.querySelectorAll('.lista') // seleciona todos elementos que contém lista na classe (4ul)
-
-        const isActive = listaOpcoes.classList.contains('lista-is--active')
-
-        listaUl.forEach(l => l.classList.remove('lista-is--active'))
-
-        if (!isActive) {
-            listaOpcoes.classList.toggle('lista-is--active')
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > menuHero) {
+            navbar.classList.add('fixed')
+        } else {
+            navbar.classList.remove('fixed')
         }
     })
-})
 
-// botão mostra a categoria de roupa selecionada
-const buttonsLista = document.querySelectorAll('[data-tab-button]');
 
-for (let i = 0; i < buttonsLista.length; i++) {
 
-    buttonsLista[i].addEventListener('click', function (buttonLista) {
+    //menu rola até blog ou sobre
 
-        const categoriaAlvo = buttonLista.target.dataset.tabButton
+    const buttonsBlog = document.querySelectorAll('.buttonBlogMenu')
+    const blogDestino = document.querySelector('.blog')
 
-        const categoria = document.querySelector(`[data-tab-id=${categoriaAlvo}]`)
+    buttonsBlog.forEach(buttonBlog => {
+        buttonBlog.addEventListener('click', () => {
+            blogDestino.scrollIntoView({
+                behavior: "smooth"
+            })
 
-        escondeTodasAbas()
-
-        categoria.classList.add('roupa--is-active')
-
-        const listaUl = document.querySelectorAll('.lista')
-
-        listaUl.forEach(l => {
-            l.classList.remove('lista-is--active')
         })
     })
-}
 
-function escondeTodasAbas() {
-    const tabsContainer = document.querySelectorAll('[data-tab-id]');
 
-    for (let i = 0; i < tabsContainer.length; i++) {
-        tabsContainer[i].classList.remove('roupa--is-active')
+    // botões navegação escolha de roupa
+    const buttonsNavegacao = document.querySelectorAll('[data-target]')
+
+    buttonsNavegacao.forEach(buttonNavegacao => {
+        buttonNavegacao.addEventListener('click', () => {
+
+            const targetSelector = buttonNavegacao.getAttribute('data-target'); // resgata e guarda o nome do data-target= "#...", no caso ("#roupas-lista")
+            const listaOpcoes = document.querySelector(targetSelector); // seleciona e guarda o resultado de targetSelector ("#roupas-lista") selecionando o id do ul para adicionar a classe lista-is--active
+            const listaUl = document.querySelectorAll('.lista') // seleciona todos elementos que contém lista na classe (4ul)
+
+            const isActive = listaOpcoes.classList.contains('lista-is--active')
+
+            listaUl.forEach(l => l.classList.remove('lista-is--active'))
+
+            if (!isActive) {
+                listaOpcoes.classList.toggle('lista-is--active')
+            }
+        })
+    })
+
+    // botão mostra a categoria de roupa selecionada
+    const buttonsLista = document.querySelectorAll('[data-tab-button]');
+
+    for (let i = 0; i < buttonsLista.length; i++) {
+
+        buttonsLista[i].addEventListener('click', function (buttonLista) {
+
+            const categoriaAlvo = buttonLista.target.dataset.tabButton
+
+            const categoria = document.querySelector(`[data-tab-id=${categoriaAlvo}]`)
+
+            escondeTodasAbas()
+
+            categoria.classList.add('roupa--is-active')
+
+            const listaUl = document.querySelectorAll('.lista')
+
+            listaUl.forEach(l => {
+                l.classList.remove('lista-is--active')
+            })
+        })
     }
-}
+
+    function escondeTodasAbas() {
+        const tabsContainer = document.querySelectorAll('[data-tab-id]');
+
+        for (let i = 0; i < tabsContainer.length; i++) {
+            tabsContainer[i].classList.remove('roupa--is-active')
+        }
+    }
 
 
 
-// mobile 
+    // mobile 
 
-//abrir e fechar menu
+    //abrir e fechar menu
 
-// mobile — abrir e fechar menu
-const openButton = document.querySelector('.hamburguer');
-const closeButton = document.querySelector('.button-fechar');
-const menuAberto = document.querySelector('.navbar__nav__toggle');
+    // mobile — abrir e fechar menu
+    const openButton = document.querySelector('.hamburguer');
+    const closeButton = document.querySelector('.button-fechar');
+    const menuAberto = document.querySelector('.navbar__nav__toggle');
 
-// abrir o menu
-openButton.addEventListener('click', () => {
-    menuAberto.classList.add('navbar__nav__toggle--is-active');
-});
+    // abrir o menu
+    openButton.addEventListener('click', () => {
+        menuAberto.classList.add('navbar__nav__toggle--is-active');
+    });
 
-// fechar o menu
-closeButton.addEventListener('click', () => {
-    menuAberto.classList.remove('navbar__nav__toggle--is-active');
-});
-
-
-
-
-
-
-
-//teste subir images polo json
-
-
-
-
-async function carregarCategoria(categoria) {
-  const req = await fetch('/data/produtos.json');
-  const data = await req.json();
-
-  const produtos = data[categoria];
-  const ul = document.querySelector('.roupa__items');
-
-  ul.innerHTML = '';
-
-  produtos.forEach(prod => {
-    ul.innerHTML += criarItem(prod);
-  });
-}
+    // fechar o menu
+    closeButton.addEventListener('click', () => {
+        menuAberto.classList.remove('navbar__nav__toggle--is-active');
+    });
 
 
 
 
-function criarItem(prod) {
-  return `
+
+
+
+    //teste subir images polo json
+
+
+
+
+    async function carregarCategoria(categoria) {
+        const req = await fetch('/data/produtos.json');
+        const data = await req.json();
+
+        const produtos = data[categoria];
+        const ul = document.querySelector('.roupa__items');
+
+        ul.innerHTML = '';
+
+        produtos.forEach(prod => {
+            ul.innerHTML += criarItem(prod);
+        });
+    }
+
+
+
+
+    function criarItem(prod) {
+        return `
     <li class="roupa__items__item">
       <img class="images--troca roupa__items__item__imagem__img-default" 
            src="${prod.imgDefault}" 
@@ -184,12 +184,17 @@ function criarItem(prod) {
       <a target="_blank" href="${prod.link}">Compre agora</a>
     </li>
   `;
-}
+    }
 
-carregarCategoria("vestidos");
+    carregarCategoria("vestidos");
 
 
-//mostra 2º imagem da roupa ao clicar
+    //mostra 2º imagem da roupa ao clicar
+
+
+
+})
+
 const imgsClick = document.querySelectorAll('.images--troca')
 const imgHover = document.querySelector('.roupa__items__item__imagem__img-hover')
 const imgDefault = document.querySelector('.roupa__items__item__imagem__img-default')
@@ -206,7 +211,3 @@ imgsClick.forEach(selectionClass => {
 
     })
 })
-
-
-}
-)
