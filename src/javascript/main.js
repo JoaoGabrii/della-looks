@@ -27,18 +27,18 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(showNextSlide, 5000)
 
 
-    
-document.addEventListener('click', (e) => {
-    if (e.target.classList.contains('images--troca')) {
 
-        const item = e.target.closest('.roupa__items__item');
+    document.addEventListener('click', (e) => {
+        if (e.target.classList.contains('images--troca')) {
 
-        const imgDefault = item.querySelector('.roupa__items__item__imagem__img-default');
-        const imgHover = item.querySelector('.roupa__items__item__imagem__img-hover');
+            const item = e.target.closest('.roupa__items__item');
 
-        imgHover.classList.toggle('roupa__items__item__imagem__img-hover--desactive');
-    }
-});
+            const imgDefault = item.querySelector('.roupa__items__item__imagem__img-default');
+            const imgHover = item.querySelector('.roupa__items__item__imagem__img-hover');
+
+            imgHover.classList.toggle('roupa__items__item__imagem__img-hover--desactive');
+        }
+    });
 
 
     // navegação acompanha a rolagem da página. melhorar
@@ -157,15 +157,19 @@ document.addEventListener('click', (e) => {
 
     //teste subir images polo json
 
-
-
-
     async function carregarCategoria(categoria) {
         const req = await fetch('/data/produtos.json');
         const data = await req.json();
 
         const produtos = data[categoria];
-        const ul = document.querySelector('.roupa__items');
+
+        // seleciona o UL dentro da aba específica
+        const ul = document.querySelector(`[data-tab-id="${categoria}"] .roupa__items`);
+
+        if (!ul) {
+            console.error("UL da categoria não encontrado:", categoria);
+            return;
+        }
 
         ul.innerHTML = '';
 
@@ -201,11 +205,13 @@ document.addEventListener('click', (e) => {
     }
 
     carregarCategoria("vestidos");
+    carregarCategoria("calcas");
+
 
 
     //mostra 2º imagem da roupa ao clicar
 
 
-   
+
 
 })

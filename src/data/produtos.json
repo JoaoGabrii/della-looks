@@ -1,5 +1,6 @@
 {
-    "vestidos": [{
+    "vestidos": [
+        {
             "nome": "Vestido Estampado Rovitex Rosa",
             "preco": "47.29",
             "parcela": "2x de 26.69 sem juros",
@@ -41,12 +42,13 @@
         }
 
     ],
-    "calcas": [{
+    "calcas": [
+        {
             "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
             "preco": "64.30",
             "parcela": "18x de 7.48 sem juros",
             "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/blog1frente.jpg",
-            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido1verso.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/blog1verso.jpg",
             "link": "https://mercadolivre.com/sec/2WrvLqx"
         }
     ]
