@@ -61,6 +61,7 @@
                 @include tituloRoupa();
                 color: $titleMain;
                 font-weight: 500;
+                min-height: 35px;
             }
 
             &__div {
