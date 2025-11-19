@@ -47,6 +47,54 @@
             "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido6.jpg",
             "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido6verso.jpg",
             "link": "https://mercadolivre.com/sec/1ZEaW4m"
+        },
+        {
+            "nome": "Vestido Feminino Com Laço Select Laranja",
+            "preco": "35.52",
+            "parcela": "2x de 17.76",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido7.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido7verso.jpg",
+            "link": "https://mercadolivre.com/sec/2qEKpwi"
+        },
+        {
+            "nome": "Vestido Midi Com Fenda Lateral Moda Verão 3.0 Girls Alça",
+            "preco": "66.51",
+            "parcela": "5x de 13.30 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido8.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido8verso.jpg",
+            "link": "https://mercadolivre.com/sec/2Donvgo"
+        },
+        {
+            "nome": "Vestidos Rodado Soltinho Bolso Confortável Alcinha Lindo",
+            "preco": "30.94",
+            "parcela": "2x de 15.47",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido9.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido9verso.jpg",
+            "link": "https://mercadolivre.com/sec/1PwtEqL"
+        },
+        {
+            "nome": "",
+            "preco": "35.52",
+            "parcela": "2x de 17.76",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido10.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido10verso.jpg",
+            "link": "https://mercadolivre.com/sec/2qEKpwi"
+        },
+        {
+            "nome": "",
+            "preco": "35.52",
+            "parcela": "2x de 17.76",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido11.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido11verso.jpg",
+            "link": "https://mercadolivre.com/sec/2qEKpwi"
+        },
+        {
+            "nome": "",
+            "preco": "35.52",
+            "parcela": "2x de 17.76",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido12.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido12verso.jpg",
+            "link": "https://mercadolivre.com/sec/2qEKpwi"
         }
 
     ],
