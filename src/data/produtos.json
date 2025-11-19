@@ -39,6 +39,14 @@
             "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido5.png",
             "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido5verso.png",
             "link": "https://mercadolivre.com/sec/1k75PHK"
+        },
+        {
+            "nome": "Vestido Midi Feminino Manga Longa Endless Preto",
+            "preco": "41.80",
+            "parcela": "2x de 22.00",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido6.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido6verso.jpg",
+            "link": "https://mercadolivre.com/sec/1ZEaW4m"
         }
 
     ],
