@@ -95,6 +95,14 @@
             "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido12.jpg",
             "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido12verso.jpg",
             "link": "https://mercadolivre.com/sec/2LMc9eh"
+        },
+        {
+            "nome": "Vestido Feminino Tricot Modal Trançado Alcinha Moda Elegante",
+            "preco": "57.27",
+            "parcela": "2x de 28.63",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestido13.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestido132verso.jpg",
+            "link": "https://mercadolivre.com/sec/1hcykan"
         }
 
     ],
