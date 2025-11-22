@@ -8,7 +8,7 @@ header {
     display: flex;
     align-items: center;
     margin: 0 auto;
-
+    min-height: 80px;
     &__title {
       display: flex;
       justify-content: space-between;
@@ -33,11 +33,16 @@ header {
       width: 200px;
     }
 
-    h1,
-    h2 {
+    h1{
       font-family: $titleFont;
       @include h1();
       color: $colorMenu;
+      @include titleBrilho();
+    }
+    h2 {
+      font-family: $titleFont;
+      @include h1();
+      color: $colorMenuButtons;
       @include titleBrilho();
 
     }
@@ -55,7 +60,7 @@ header {
 
           a {
             @include linkbutton();
-            color: $colorMenu;
+            color: $colorMenuButtons;
             @include titleBrilho();
 
             &::after {
@@ -147,7 +152,7 @@ header {
           position: relative;
           display: inline-block;
           cursor: pointer;
-          color: $colorMenu;
+          color: $colorMenuButtons;
           filter: brightness(1.6);
 
           &::after {
@@ -178,7 +183,7 @@ header {
           border-radius: 5%;
           position: absolute;
           left: 0px;
-
+          
         }
 
         .lista {
@@ -208,7 +213,7 @@ header {
             border-bottom: 1px solid black;
 
             button {
-              color: #f1f1f1;
+              color: $colorMenuButtons;
               height: 20px;
               display: flex;
               flex-direction: column;
@@ -230,7 +235,7 @@ header {
           }
 
           &-is--active {
-
+            color: $colorMenuButtons;
             display: flex;
             position: relative;
             transform: translateX(0%);
