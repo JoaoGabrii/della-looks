@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const alturaMenuLimite = alturaMenu.offsetHeight
     const alturaHeroLimite = alturaHero.offsetHeight
 
-    const menuHero = alturaMenuLimite + alturaHeroLimite
+    const menuHero = alturaMenuLimite
 
     window.addEventListener("scroll", () => {
         if (window.scrollY > menuHero) {
