@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const alturaHero = document.querySelector('.hero')
 
     const alturaMenuLimite = alturaMenu.offsetHeight
-    const alturaHeroLimite = alturaHero.offsetHeight
+    
 
     const menuHero = alturaMenuLimite
 
