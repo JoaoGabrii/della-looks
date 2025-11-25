@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-    //teste subir images polo json
+    //teste subir images pelo json
 
     async function carregarCategoria(categoria) {
         const req = await fetch('/data/produtos.json');
