@@ -162,13 +162,134 @@
         }
 
     ],
+    
     "calcas": [
         {
             "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
             "preco": "64.30",
             "parcela": "18x de 7.48 sem juros",
-            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca1frente.jpg",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca1.jpg",
             "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca1verso.jpg",
+            "link": "https://mercadolivre.com/sec/1nesqnA"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca2.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca2verso.jpg",
+            "link": "https://mercadolivre.com/sec/2WrvLqx"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca3.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca3verso.jpg",
+            "link": "https://mercadolivre.com/sec/2WrvLqx"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca4.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca4verso.jpg",
+            "link": "https://mercadolivre.com/sec/2WrvLqx"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca5.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca5verso.jpg",
+            "link": "https://mercadolivre.com/sec/2WrvLqx"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca6.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca6verso.jpg",
+            "link": "https://mercadolivre.com/sec/2WrvLqx"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca7.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca7verso.jpg",
+            "link": "https://mercadolivre.com/sec/2WrvLqx"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca8.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca8verso.jpg",
+            "link": "https://mercadolivre.com/sec/2WrvLqx"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca9.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca9verso.jpg",
+            "link": "https://mercadolivre.com/sec/2WrvLqx"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca10.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca10verso.jpg",
+            "link": "https://mercadolivre.com/sec/2WrvLqx"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca11.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca11verso.jpg",
+            "link": "https://mercadolivre.com/sec/2WrvLqx"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca12.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca12verso.jpg",
+            "link": "https://mercadolivre.com/sec/2WrvLqx"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca13.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca13verso.jpg",
+            "link": "https://mercadolivre.com/sec/2WrvLqx"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca14.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca14verso.jpg",
+            "link": "https://mercadolivre.com/sec/2WrvLqx"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca15.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca15verso.jpg",
+            "link": "https://mercadolivre.com/sec/2WrvLqx"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca16.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/calcas/calca16verso.jpg",
             "link": "https://mercadolivre.com/sec/2WrvLqx"
         }
     ]

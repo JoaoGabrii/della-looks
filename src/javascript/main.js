@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const alturaHero = document.querySelector('.hero')
 
     const alturaMenuLimite = alturaMenu.offsetHeight
-    
+
 
     const menuHero = alturaMenuLimite
 
@@ -100,9 +100,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // botão mostra a categoria de roupa selecionada
     const buttonsLista = document.querySelectorAll('[data-tab-button]');
 
+    const secaoAlvo = document.getElementById('todas-roupas');
+
+    console.log(secaoAlvo)
     for (let i = 0; i < buttonsLista.length; i++) {
 
         buttonsLista[i].addEventListener('click', function (buttonLista) {
+            if (secaoAlvo) {
+                // 3. Chame o método scrollIntoView()
+                secaoAlvo.scrollIntoView({
+                    behavior: 'smooth', // Para uma rolagem suave e animada
+                    block: 'start' // Alinha o topo do elemento com o topo da área visível
+                });
+            }
 
             const categoriaAlvo = buttonLista.target.dataset.tabButton
 
