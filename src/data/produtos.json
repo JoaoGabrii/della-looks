@@ -4,40 +4,40 @@
             "nome": "Vestido Estampado Rovitex Rosa",
             "preco": "47.29",
             "parcela": "2x de 26.69 sem juros",
-            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido1.png",
-            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido1verso.png",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido1.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido1verso.jpg",
             "link": "https://mercadolivre.com/sec/2WrvLqx"
         },
         {
             "nome": "Vestido Estampado Rovitex Preto",
             "preco": "47.29",
             "parcela": "2x de 26.69 sem juros",
-            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido2.png",
-            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido2verso.png",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido2.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido2verso.jpg",
             "link": "https://mercadolivre.com/sec/1BDhCGr"
         },
         {
             "nome": "Vestido Estampado Rovitex Verde",
             "preco": "47.29",
             "parcela": "2x de 26.69 sem juros",
-            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido3.png",
-            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido3verso.png",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido3.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido3verso.jpg",
             "link": "https://mercadolivre.com/sec/2fdRkt3"
         },
         {
             "nome": "Vestido Feminino Estampado Select Rosa",
             "preco": "38.99",
             "parcela": "2x de 19.50 sem juros",
-            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido4.png",
-            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido4verso.png",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido4.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido4verso.jpg",
             "link": "https://mercadolivre.com/sec/1MVTBiK"
         },
         {
             "nome": "Vestido Feminino Curto De Viscose Select Azul",
             "preco": "56.59",
             "parcela": "2x de 28.30 sem juros",
-            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido5.png",
-            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido5verso.png",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido5.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido5verso.jpg",
             "link": "https://mercadolivre.com/sec/1k75PHK"
         },
         {
@@ -162,7 +162,7 @@
         }
 
     ],
-    
+
     "calcas": [
         {
             "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
