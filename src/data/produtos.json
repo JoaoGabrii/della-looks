@@ -380,7 +380,7 @@
             "preco": "29.99",
             "parcela": "",
             "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/camisetas/camiseta11.jpg",
-            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/camisetas/camiseta1verso.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/camisetas/camiseta11verso.jpg",
             "link": "https://mercadolivre.com/sec/2VGwePw"
         },
         {
@@ -388,8 +388,75 @@
             "preco": "21.00",
             "parcela": "",
             "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/camisetas/camiseta12.jpg",
-            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/camisetas/camiseta1verso.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/camisetas/camiseta12verso.jpg",
             "link": "https://mercadolivre.com/sec/2jZRsMA"
+        }
+    ],
+
+    "saias": [
+        {
+            "nome": "Saia De Alfaiataria Midi Brinde Cinto Couro",
+            "preco": "38.81",
+            "parcela": "",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia1.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia1verso.jpg",
+            "link": "https://mercadolivre.com/sec/2azYvcE"
+        },
+        {
+            "nome": "Short Saia Jeans Feminino Evolução, Alta, Curta, Adulto",
+            "preco": "53.37",
+            "parcela": "2x de 26.68 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia2.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia2verso.jpg",
+            "link": "https://mercadolivre.com/sec/2kfjmn8"
+        },
+        {
+            "nome": "Saia Cargo Feminina Cintura Alta Com Lycra Levanta Bumbum",
+            "preco": "46.90",
+            "parcela": "2x de 23.45 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia3.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia3verso.jpg",
+            "link": "https://mercadolivre.com/sec/2tMRvqL"
+        },
+        {
+            "nome": "Saia Longa Feminina Rendada Forrada Crochê Tricot Moda Verão",
+            "preco": "48.40",
+            "parcela": "2x de 24.2 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia4.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia4verso.jpg",
+            "link": "https://mercadolivre.com/sec/1tcoGAz"
+        },
+        {
+            "nome": "Saia Feminina Fendas Laterais Trama De Furinhos Tricot Modal",
+            "preco": "56.90",
+            "parcela": "2x de 28.45 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia5.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia5verso.jpg",
+            "link": "https://mercadolivre.com/sec/14JEXQc"
+        },
+        {
+            "nome": "Saia De Praia Longa Franjas Abertura Lateral Tricot Verão",
+            "preco": "33.85",
+            "parcela": "2x de 16.92 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia6.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia6verso.jpg",
+            "link": "https://mercadolivre.com/sec/1175gpJ"
+        },
+        {
+            "nome": "Saia Jeans Longa Midi Feminina Cintura Alta Com Fenda",
+            "preco": "56.90",
+            "parcela": "2x de 28.45 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia7.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia7verso.jpg",
+            "link": "https://mercadolivre.com/sec/2awzXzB"
+        },
+        {
+            "nome": "Saia Anágua Segunda Pele Feminina Saiote Saia Para Vestido",
+            "preco": "29.95",
+            "parcela": "",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia8.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia8verso.jpg",
+            "link": "https://mercadolivre.com/sec/1quRRhQ"
         }
     ]
 
