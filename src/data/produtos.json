@@ -458,6 +458,105 @@
             "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/saias/saia8verso.jpg",
             "link": "https://mercadolivre.com/sec/1quRRhQ"
         }
+    ],
+
+    "shorts": [
+        {
+            "nome": "Short Alfaiataria Cintura Alta Feminino Com Bolso E Cinto",
+            "preco": "33.59",
+            "parcela": "",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short1.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short1verso.jpg",
+            "link": "https://mercadolivre.com/sec/21dhBnJ"
+        },
+        {
+            "nome": "Shorts Feminino Cintura Alta Jeans Para Adultos Com Elastano",
+            "preco": "53.34",
+            "parcela": "2x de 26.67 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2verso.jpg",
+            "link": "https://mercadolivre.com/sec/2BWrm9W"
+        },
+        {
+            "nome": "Short Jeans Feminino Shorts Cargo Com Lycra Cintura Alta",
+            "preco": "44.07",
+            "parcela": "2x de 23.50 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short3.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short3verso.jpg",
+            "link": "https://mercadolivre.com/sec/2zqRYSZ"
+        },
+        {
+            "nome": "Short Feminino Cargo Algodão Com Lycra",
+            "preco": "58.14",
+            "parcela": "2x de 29.07 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short4.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short4verso.jpg",
+            "link": "https://mercadolivre.com/sec/26zn3QD"
+        },
+        {
+            "nome": "Shorts Varo Denim Jeans Feminino Casual Cintura Alta",
+            "preco": "69.28",
+            "parcela": "2x de 34.64 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short5.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short5verso.jpg",
+            "link": "https://mercadolivre.com/sec/28TvFKZ"
+        },
+        {
+            "nome": "Short Jeans Feminino Cintura Alta Com Lycra Barra Desfiada",
+            "preco": "47.90",
+            "parcela": "2x de 23.95 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short6.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short6verso.jpg",
+            "link": "https://mercadolivre.com/sec/1yzi3pa"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short7.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short7verso.jpg",
+            "link": "https://mercadolivre.com/sec/1nesqnA"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short8.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short8verso.jpg",
+            "link": "https://mercadolivre.com/sec/1nesqnA"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short9.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short9verso.jpg",
+            "link": "https://mercadolivre.com/sec/1nesqnA"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short10.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short10verso.jpg",
+            "link": "https://mercadolivre.com/sec/1nesqnA"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short11.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short11verso.jpg",
+            "link": "https://mercadolivre.com/sec/1nesqnA"
+        },
+        {
+            "nome": "Calça Jeans Wide Leg Pantalona Cintura Alta Jeans 100%",
+            "preco": "64.30",
+            "parcela": "18x de 7.48 sem juros",
+            "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short12.jpg",
+            "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short12verso.jpg",
+            "link": "https://mercadolivre.com/sec/1nesqnA"
+        }
     ]
 
 }

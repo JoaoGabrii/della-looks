@@ -218,6 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
     carregarCategoria("calcas");
     carregarCategoria("blusas");
     carregarCategoria("saias");
+    carregarCategoria("shorts");
 
 
 
