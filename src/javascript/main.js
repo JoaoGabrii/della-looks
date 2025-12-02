@@ -219,6 +219,7 @@ document.addEventListener('DOMContentLoaded', () => {
     carregarCategoria("blusas");
     carregarCategoria("saias");
     carregarCategoria("shorts");
+    carregarCategoria("tenis");
 
 
 

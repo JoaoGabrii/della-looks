@@ -127,7 +127,7 @@
             "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido16.jpg",
             "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/vestidos/vestido16verso.jpg",
             "link": "https://mercadolivre.com/sec/2A1MC5K"
-        }, 
+        },
         {
             "nome": "Vestido Jeans 100% Liocel Regata Soltinho Com Zíper E Bolso",
             "preco": "124.90",
@@ -557,6 +557,73 @@
             "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short12verso.jpg",
             "link": "https://mercadolivre.com/sec/1x1oCs6"
         }
-    ]
+    ],
+
+    "tenis": [
+        {
+        "nome": "Shorts Feminino Cintura Alta Jeans Para Adultos Com Elastano",
+        "preco": "53.34",
+        "parcela": "2x de 26.67 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2verso.jpg",
+        "link": "https://mercadolivre.com/sec/2BWrm9W"
+    }, 
+        {
+        "nome": "Shorts Feminino Cintura Alta Jeans Para Adultos Com Elastano",
+        "preco": "53.34",
+        "parcela": "2x de 26.67 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2verso.jpg",
+        "link": "https://mercadolivre.com/sec/2BWrm9W"
+    }, 
+        {
+        "nome": "Shorts Feminino Cintura Alta Jeans Para Adultos Com Elastano",
+        "preco": "53.34",
+        "parcela": "2x de 26.67 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2verso.jpg",
+        "link": "https://mercadolivre.com/sec/2BWrm9W"
+    }, 
+        {
+        "nome": "Shorts Feminino Cintura Alta Jeans Para Adultos Com Elastano",
+        "preco": "53.34",
+        "parcela": "2x de 26.67 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2verso.jpg",
+        "link": "https://mercadolivre.com/sec/2BWrm9W"
+    }, 
+        {
+        "nome": "Shorts Feminino Cintura Alta Jeans Para Adultos Com Elastano",
+        "preco": "53.34",
+        "parcela": "2x de 26.67 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2verso.jpg",
+        "link": "https://mercadolivre.com/sec/2BWrm9W"
+    }, 
+        {
+        "nome": "Shorts Feminino Cintura Alta Jeans Para Adultos Com Elastano",
+        "preco": "53.34",
+        "parcela": "2x de 26.67 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2verso.jpg",
+        "link": "https://mercadolivre.com/sec/2BWrm9W"
+    }, 
+        {
+        "nome": "Shorts Feminino Cintura Alta Jeans Para Adultos Com Elastano",
+        "preco": "53.34",
+        "parcela": "2x de 26.67 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2verso.jpg",
+        "link": "https://mercadolivre.com/sec/2BWrm9W"
+    }, 
+        {
+        "nome": "Shorts Feminino Cintura Alta Jeans Para Adultos Com Elastano",
+        "preco": "53.34",
+        "parcela": "2x de 26.67 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/roupas/shorts/short2verso.jpg",
+        "link": "https://mercadolivre.com/sec/2BWrm9W"
+    }
+]
 
 }
