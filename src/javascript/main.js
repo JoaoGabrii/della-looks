@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', () => {
     carregarCategoria("saias");
     carregarCategoria("shorts");
     carregarCategoria("tenis");
-
+    carregarCategoria("sandalias")
 
 
     //mostra 2º imagem da roupa ao clicar

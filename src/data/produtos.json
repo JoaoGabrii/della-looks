@@ -624,6 +624,73 @@
         "imgHover": "https://della-looks-images-site.vercel.app/products/calcados/tenis/tenis8verso.jpg",
         "link": "https://mercadolivre.com/sec/1mCWHvR"
     }
-]
+],
+
+    "sandalias": [
+        {
+        "nome": "Sandália Feminina Salto Bloco Baixo Tira Única Social Comfy",
+        "preco": "78.90",
+        "parcela": "2x de 39.45 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia1.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia1verso.jpg",
+        "link": "https://mercadolivre.com/sec/2QXR3P5"
+    }, 
+        {
+        "nome": "Sandalia Rasteira Feminina Confort Elástico Anatômica Plus 1",
+        "preco": "38.49",
+        "parcela": "2x de 19.24 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia2.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia2verso.jpg",
+        "link": "https://mercadolivre.com/sec/1e1h1Bi"
+    }, 
+        {
+        "nome": "Saltinho Baixo Feminino Sandália Salto Grosso Nobuck Festa",
+        "preco": "48.14",
+        "parcela": "2x de 24.07 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia3.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia3verso.jpg",
+        "link": "https://mercadolivre.com/sec/2MYTDx3"
+    }, 
+        {
+        "nome": "Sandália Feminina Brilho Salto Alto Bloco Vinil Transparente",
+        "preco": "65.99",
+        "parcela": "2x de 32.99 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia4.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia4verso.jpg",
+        "link": "https://mercadolivre.com/sec/2bEpGFJ"
+    }, 
+        {
+        "nome": "Sandalia Amarração Salto Grosso Alto Blogueira Moda Corrente",
+        "preco": "59.90",
+        "parcela": "2x de 29.95 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia5.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia5verso.jpg",
+        "link": "https://mercadolivre.com/sec/2SRWJYY"
+    }, 
+        {
+        "nome": "Sandália Papete Feminina Rasteira Brilho Strass Luxo Ajuste!",
+        "preco": "46.72",
+        "parcela": "2x de 23.36 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia6.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia6verso.jpg",
+        "link": "https://mercadolivre.com/sec/1Vi9cwB"
+    }, 
+        {
+        "nome": "Sandália Tamanco Feminino Flatform Confortável Juta",
+        "preco": "78.90",
+        "parcela": "2x de 39.45 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia7.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia7verso.jpg",
+        "link": "https://mercadolivre.com/sec/2MxEJFF"
+    }, 
+        {
+        "nome": "Sandália Feminina Papete Birken Flatform Brilho Strass Gigil",
+        "preco": "69.99",
+        "parcela": "2x de 34.99 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia8.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/calcados/sandalias/sandalia8verso.jpg",
+        "link": "https://mercadolivre.com/sec/1KtokET"
+    }
+    ]
 
 }
