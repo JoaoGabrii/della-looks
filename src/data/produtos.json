@@ -759,6 +759,7 @@
         "link": "https://mercadolivre.com/sec/12N8pdK"
     }
     ],
+
     "colares": [
                 {
         "nome": "Gargantilha colar Feminino Choker Zirconia Branca Prata 925 cor prateado Refino Pratas",
@@ -801,28 +802,63 @@
         "link": "https://mercadolivre.com/sec/2a4ZZss"
     },       
                 {
-        "nome": "Sapatilha Slingback Bico Fino Fivelas Sapato Social Feminino",
-        "preco": "54.92",
-        "parcela": "2x de 27.46 sem juros",
+        "nome": "Colar Cordão Nossa Senhora Aparecida Em Prata Legítima 925",
+        "preco": "62.50",
+        "parcela": "2x de 31.25 sem juros",
         "imgDefault": "https://della-looks-images-site.vercel.app/products/acessorios/colares/colar6.jpg",
         "imgHover": "https://della-looks-images-site.vercel.app/products/acessorios/colares/colar6verso.jpg",
-        "link": "https://mercadolivre.com/sec/15UD2wd"
+        "link": "https://mercadolivre.com/sec/15H3Yen"
     },       
                 {
-        "nome": "Sapatilha Slingback Bico Fino Fivelas Sapato Social Feminino",
-        "preco": "54.92",
-        "parcela": "2x de 27.46 sem juros",
+        "nome": "Joias Colares Femininos presente colar feminino prata",
+        "preco": "130,90",
+        "parcela": "2x de 65.45 sem juros",
         "imgDefault": "https://della-looks-images-site.vercel.app/products/acessorios/colares/colar7.jpg",
         "imgHover": "https://della-looks-images-site.vercel.app/products/acessorios/colares/colar7verso.jpg",
-        "link": "https://mercadolivre.com/sec/15UD2wd"
+        "link": "https://mercadolivre.com/sec/2mqhCpA"
     },       
                 {
-        "nome": "Sapatilha Slingback Bico Fino Fivelas Sapato Social Feminino",
-        "preco": "54.92",
-        "parcela": "2x de 27.46 sem juros",
+        "nome": "Colar Seja Forte E Corajosa Ponto De Luz Coração Prata",
+        "preco": "104.92",
+        "parcela": "2x de 52.46 sem juros",
         "imgDefault": "https://della-looks-images-site.vercel.app/products/acessorios/colares/colar8.jpg",
         "imgHover": "https://della-looks-images-site.vercel.app/products/acessorios/colares/colar8verso.jpg",
-        "link": "https://mercadolivre.com/sec/15UD2wd"
+        "link": "https://mercadolivre.com/sec/1cCZrJT"
     }       
+    ],
+
+    "bolsas": [
+        {
+        "nome": "Bolsa Feminina Transversal Media Com Carteira Creme Selten",
+        "preco": "67.62",
+        "parcela": "2x de 33.81 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/acessorios/bolsas/bolsa1.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/acessorios/bolsas/bolsa1verso.jpg",
+        "link": "https://mercadolivre.com/sec/31JANSQ"
+    },
+        {
+        "nome": "Bolsa Luxuosa Baú Média De Mão Feminina Transversal De Ombro",
+        "preco": "50.63",
+        "parcela": "2x de 25.31 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/acessorios/bolsas/bolsa2.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/acessorios/bolsas/bolsa2verso.jpg",
+        "link": "https://mercadolivre.com/sec/2tVwCRK"
+    },
+        {
+        "nome": "Kit Bolsa Média De Mão Espaçosa + Carteira Moderna Elegante",
+        "preco": "60.90",
+        "parcela": "2x de 30.45 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/acessorios/bolsas/bolsa3.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/acessorios/bolsas/bolsa3verso.jpg",
+        "link": "https://mercadolivre.com/sec/1hBhZcM"
+    },
+        {
+        "nome": "Bolsa Feminina Grande Santa Lolla Preto",
+        "preco": "239.90",
+        "parcela": "2x de 119.95 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/acessorios/bolsas/bolsa4.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/acessorios/bolsas/bolsa4verso.jpg",
+        "link": "https://mercadolivre.com/sec/24sa8VR"
+    }
     ]
 }
