@@ -224,6 +224,8 @@ document.addEventListener('DOMContentLoaded', () => {
     carregarCategoria("sapatilhas");
     carregarCategoria("colares");
     carregarCategoria("bolsas");
+    carregarCategoria("oculos");
+    carregarCategoria("conjunto");
 
 
     //mostra 2º imagem da roupa ao clicar
