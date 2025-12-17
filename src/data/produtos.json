@@ -969,12 +969,36 @@
     
     "calcinha": [
         {
-        "nome": "Sutiã Alças Largas Alta Sustentação Olimpo Adulto Demillus",
-        "preco": "39.99",
-        "parcela": "2x de 19.99 sem juros",
-        "imgDefault": "https://della-looks-images-site.vercel.app/products/lingerie/sutia/sutia1.jpg",
-        "imgHover": "https://della-looks-images-site.vercel.app/products/lingerie/sutia/sutia1verso.jpg",
-        "link": "https://mercadolivre.com/sec/2fj4tfh"
+        "nome": "Kit 10 Calcinhas Algodão Tanga Lisa Conforto Básica",
+        "preco": "49,99",
+        "parcela": "2x de 24,99 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/lingerie/calcinha/calcinha1.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/lingerie/calcinha/calcinha1verso.jpg",
+        "link": "https://mercadolivre.com/sec/1MJR6mh"
+    },
+        {
+        "nome": "Kit 15 Calcinhas Fio Dental Kyron Fio Duplo Empina Bumbum",
+        "preco": "64,99",
+        "parcela": "2x de 32,49 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/lingerie/calcinha/calcinha2.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/lingerie/calcinha/calcinha2verso.jpg",
+        "link": "https://mercadolivre.com/sec/2w68qRU"
+    },
+        {
+        "nome": "10 Calcinhas Fio Renda Lateral Calcinha Microfibra Atacado",
+        "preco": "54,99",
+        "parcela": "2x de 27,49 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/lingerie/calcinha/calcinha3.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/lingerie/calcinha/calcinha3verso.jpg",
+        "link": "https://mercadolivre.com/sec/1F8ejcb"
+    },
+        {
+        "nome": "5 Calcinhas Cintura Alta Calcinha Cós Duplo",
+        "preco": "39,90",
+        "parcela": "2x de 19,95 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/lingerie/calcinha/calcinha4.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/lingerie/calcinha/calcinha4verso.jpg",
+        "link": "https://mercadolivre.com/sec/2csq7WZ"
     }
     ]
 }
