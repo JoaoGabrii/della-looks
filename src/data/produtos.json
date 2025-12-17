@@ -895,7 +895,8 @@
         "imgHover": "https://della-looks-images-site.vercel.app/products/acessorios/oculos/oculos1verso.jpg",
         "link": "https://mercadolivre.com/sec/2fGrA2M"
     }
-],
+    ],
+
     "conjunto": [
         {
         "nome": "Conjunto Lingerie Sensual Renda Sutiã E Calcinha Feminino",
@@ -929,5 +930,40 @@
         "imgHover": "https://della-looks-images-site.vercel.app/products/lingerie/conjuntos/conjunto4verso.jpg",
         "link": "https://mercadolivre.com/sec/1o9oMoA"
     }
-]
+    ],
+
+    "sutia": [
+        {
+        "nome": "Sutiã Alças Largas Alta Sustentação Olimpo Adulto Demillus",
+        "preco": "39.99",
+        "parcela": "2x de 19.99 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/lingerie/sutia/sutia1.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/lingerie/sutia/sutia1verso.jpg",
+        "link": "https://mercadolivre.com/sec/2fj4tfh"
+    },
+        {
+        "nome": "Sutiã Olimpo Anizete Adulto Feminino Demillus",
+        "preco": "39.99",
+        "parcela": "2x de 19.99 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/lingerie/sutia/sutia2.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/lingerie/sutia/sutia2verso.jpg",
+        "link": "https://mercadolivre.com/sec/1qYCmQz"
+    },
+        {
+        "nome": "Soutien New Form Pós Cirúrgico Reforço Alta Compressão",
+        "preco": "55.18",
+        "parcela": "2x de 27.59 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/lingerie/sutia/sutia3.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/lingerie/sutia/sutia3verso.jpg",
+        "link": "https://mercadolivre.com/sec/2GYaDKL"
+    },
+        {
+        "nome": "Sutiã Sem Alça Com Bojo Alta Sustentação Liso Confortável",
+        "preco": "63.92",
+        "parcela": "2x de 31.96 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/lingerie/sutia/sutia4.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/lingerie/sutia/sutia4verso.jpg",
+        "link": "https://mercadolivre.com/sec/1GqLg6V"
+    }
+    ]
 }
