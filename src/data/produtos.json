@@ -965,5 +965,16 @@
         "imgHover": "https://della-looks-images-site.vercel.app/products/lingerie/sutia/sutia4verso.jpg",
         "link": "https://mercadolivre.com/sec/1GqLg6V"
     }
+    ],
+    
+    "calcinha": [
+        {
+        "nome": "Sutiã Alças Largas Alta Sustentação Olimpo Adulto Demillus",
+        "preco": "39.99",
+        "parcela": "2x de 19.99 sem juros",
+        "imgDefault": "https://della-looks-images-site.vercel.app/products/lingerie/sutia/sutia1.jpg",
+        "imgHover": "https://della-looks-images-site.vercel.app/products/lingerie/sutia/sutia1verso.jpg",
+        "link": "https://mercadolivre.com/sec/2fj4tfh"
+    }
     ]
 }
