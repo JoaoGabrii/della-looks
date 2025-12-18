@@ -17,10 +17,6 @@
         background-color: $headerFooter;
         position: relative;
 
-        &.setas-menu {
-            width: 0 100px;
-        }
-
         &__botoes {
             position: absolute;
             overflow-y: visible;
@@ -43,7 +39,7 @@
 
             &__items {
                 max-width: 100%;
-                width: 80%;
+                width: 100%;
                 margin: 0 auto;
                 text-align: center;
                 display: flex;
