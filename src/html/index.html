@@ -12,13 +12,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
-    <link rel="shortcut icon" href="https://della-looks-images-site.vercel.app/icons/logo-loja-site.jpg">
+  <link rel="shortcut icon" href="https://della-looks-images-site.vercel.app/icons/logo-loja-site.jpg">
   <link rel="stylesheet" href="@@CSS_PATH@@" />
 </head>
 
 <body>
   <header>
-
     <div class="menu">
       <div class="menu__title container">
         <h1>DellaLooks</h1>
@@ -27,8 +26,8 @@
       <div class="menu__itemss container">
         <ul class="menu__itemss__items">
           <li class="menu__itemss__items__item"><a href="#">Inicio</a></li>
-          <li class="menu__itemss__items__item"><a href="#footer">Sobre</a></li>
           <li class="menu__itemss__items__item buttonBlogMenu"><a href="#">Blog</a></li>
+          <li class="menu__itemss__items__item"><a href="#footer">Sobre</a></li>
         </ul>
       </div>
       <nav class="navbar">
@@ -70,107 +69,116 @@
     </div>
   </header>
 
-  <section id="navbar" class="navegador">  <!-- menu de escolhas -->
-    <div class="setas-menu">
+  <section id="navbar" class="navegador">
+    <!-- menu de escolhas -->
 
-      <div class="navegador__scrool-arrow-left">
-        <img src="https://della-looks-images-site.vercel.app/icons/leftblack.png" alt="indicador de rolagem lateral">
-      </div>
 
-      <nav class="navegador__botoes">
-        <ul class="navegador__botoes__items">
-          <li class="navegador__botoes__items__item ">
+    <nav class="navegador__botoes">
+      <ul class="navegador__botoes__items">
+        <li class="navegador__botoes__items__item">
+          <div class="navegador__botoes__items__item__botaoPrincipal">
             <button data-target="#roupas-lista">Roupas</button>
-            <div class="listaa">
-              <ul id="roupas-lista" class="lista">
-                <li class="lista__item">
-                  <button data-tab-button="vestidos">Vestidos</button>
-                </li>
-                <li class="lista__item">
-                  <button data-tab-button="blusas">Blusas</button>
-                </li>
-                <li class="lista__item">
-                  <button data-tab-button="shorts">Shorts</button>
-                </li>
-                <li class="lista__item">
-                  <button data-tab-button="calcas">Calças</button>
-                </li>
-                <li class="lista__item">
-                  <button data-tab-button="saias">Saias</button>
-                </li>
-              </ul>
-            </div>
-          </li>
+            <img src="../image/icons/down.png" alt="seta indicando abertura do menu">
+          </div>
+          <div class="listaa">
+            <ul id="roupas-lista" class="lista">
+              <li class="lista__item">
+                <button data-tab-button="vestidos">Vestidos</button>
+              </li>
+              <li class="lista__item">
+                <button data-tab-button="blusas">Blusas</button>
+              </li>
+              <li class="lista__item">
+                <button data-tab-button="shorts">Shorts</button>
+              </li>
+              <li class="lista__item">
+                <button data-tab-button="calcas">Calças</button>
+              </li>
+              <li class="lista__item">
+                <button data-tab-button="saias">Saias</button>
+              </li>
+            </ul>
+          </div>
+        </li>
 
-          <li class="navegador__botoes__items__item -calcados">
+        <li class="navegador__botoes__items__item -calcados">
+          <div class="navegador__botoes__items__item__botaoPrincipal">
             <button data-target="#calcados-lista">Calçados</button>
-            <div class="listaa">
-              <ul id="calcados-lista" class="lista">
-                <li class="lista__item -calcados">
-                  <button data-tab-button="tenis">Tenis</button>
-                </li>
-                <li class="lista__item -calcados">
-                  <button data-tab-button="sandalias">Sandálias</button>
-                </li>
-                <li class="lista__item -calcados">
-                  <button data-tab-button="sapatilhas">Sapatilhas</button>
-                </li>
-              </ul>
-            </div>
-          </li>
+            <img src="../image/icons/down.png" alt="seta indicando abertura do menu">
+          </div>
+          <div class="listaa">
+            <ul id="calcados-lista" class="lista">
+              <li class="lista__item -calcados">
+                <button data-tab-button="tenis">Tenis</button>
+              </li>
+              <li class="lista__item -calcados">
+                <button data-tab-button="sandalias">Sandálias</button>
+              </li>
+              <li class="lista__item -calcados">
+                <button data-tab-button="sapatilhas">Sapatilhas</button>
+              </li>
+            </ul>
+          </div>
+        </li>
 
-          <li class="navegador__botoes__items__item">
+        <li class="navegador__botoes__items__item">
+          <div class="navegador__botoes__items__item__botaoPrincipal">
             <button data-target="#bolsas-lista">Acessórios</button>
-            <div class="listaa">
-              <ul id="bolsas-lista" class="lista">
-                <li class="lista__item -bolsas">
-                  <button data-tab-button="colares">Colares, Brincos & Pulseiras</button>
-                </li>
-                <li class="lista__item -bolsas">
-                  <button data-tab-button="bolsas">Bolsas</button>
-                </li>
-                <li class="lista__item -bolsas">
-                  <button data-tab-button="oculos">Óculos</button>
-                </li>
-              </ul>
-            </div>
-          </li>
+            <img src="../image/icons/down.png" alt="seta indicando abertura do menu">
+          </div>
+          <div class="listaa">
+            <ul id="bolsas-lista" class="lista">
+              <li class="lista__item -bolsas">
+                <button data-tab-button="colares">Jóias</button>
+              </li>
+              <li class="lista__item -bolsas">
+                <button data-tab-button="bolsas">Bolsas</button>
+              </li>
+              <li class="lista__item -bolsas">
+                <button data-tab-button="oculos">Óculos</button>
+              </li>
+            </ul>
+          </div>
+        </li>
 
-          <li class="navegador__botoes__items__item ">
+        <li class="navegador__botoes__items__item ">
+          <div class="navegador__botoes__items__item__botaoPrincipal">
             <button data-target="#oculos-lista">Moda Íntima & Lingerie</button>
-            <div class="listaa">
-              <ul id="oculos-lista" class="lista">
-                <li class="lista__item -oculos">
-                  <button data-tab-button="conjunto">Conjuntos</button>
-                </li>
-                <li class="lista__item -oculos">
-                  <button data-tab-button="sutia">Sutiãs</button>
-                </li>
-                <li class="lista__item -oculos">
-                  <button data-tab-button="calcinha">Calcinhas</button>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
+            <img src="../image/icons/down.png" alt="seta indicando abertura do menu">
+          </div>
+          <div class="listaa">
+            <ul id="oculos-lista" class="lista">
+              <li class="lista__item -oculos">
+                <button data-tab-button="conjunto">Conjuntos</button>
+              </li>
+              <li class="lista__item -oculos">
+                <button data-tab-button="sutia">Sutiãs</button>
+              </li>
+              <li class="lista__item -oculos">
+                <button data-tab-button="calcinha">Calcinhas</button>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
 
-      </nav>
-      <div class="navegador__scrool-arrow">
-        <img src="https://della-looks-images-site.vercel.app/icons/rightblack.png" alt="Indicador de rolagem lateral">
-      </div>
-    </div>
+    </nav>
+
   </section>
   <section class="hero">
     <div class="hero__content">
       <ul class="hero__content__items">
         <li class="hero__content__items__item">
-          <img src="https://della-looks-images-site.vercel.app/slides/slide1.jpg" alt="foto de modelo utilizando roupas vendidas no site" />
+          <img src="https://della-looks-images-site.vercel.app/slides/slide1.jpg"
+            alt="foto de modelo utilizando roupas vendidas no site" />
         </li>
         <li class="hero__content__items__item">
-          <img src="https://della-looks-images-site.vercel.app/slides/slide2.jpg" alt="foto de modelo utilizando roupas vendidas no site" />
+          <img src="https://della-looks-images-site.vercel.app/slides/slide2.jpg"
+            alt="foto de modelo utilizando roupas vendidas no site" />
         </li>
         <li class="hero__content__items__item">
-          <img src="https://della-looks-images-site.vercel.app/slides/slide3.jpg" alt="foto de modelo utilizando roupas vendidas no site" />
+          <img src="https://della-looks-images-site.vercel.app/slides/slide3.jpg"
+            alt="foto de modelo utilizando roupas vendidas no site" />
         </li>
       </ul>
     </div>
@@ -181,7 +189,8 @@
   <main>
     <div id="todas-roupas">
 
-      <section data-tab-id="vestidos" class="roupa roupa--is-active"> <!-- VESTIDOS -->
+      <section data-tab-id="vestidos" class="roupa roupa--is-active">
+        <!-- VESTIDOS -->
         <div class="container">
           <ul class="roupa__items">
             <li class="roupa__items__item">
@@ -201,7 +210,8 @@
         </div>
       </section>
 
-      <section id="calcas" data-tab-id="calcas" class="roupa"> <!-- CALÇAS -->
+      <section id="calcas" data-tab-id="calcas" class="roupa">
+        <!-- CALÇAS -->
         <div class="container">
           <ul class="roupa__items">
             <li class="roupa__items__item">
@@ -220,7 +230,8 @@
         </div>
       </section>
 
-      <section data-tab-id="blusas" class="roupa"> <!-- BLUSAS -->
+      <section data-tab-id="blusas" class="roupa">
+        <!-- BLUSAS -->
         <div class="container">
           <ul class="roupa__items">
             <li class="roupa__items__item">
@@ -236,7 +247,8 @@
         </div>
       </section>
 
-      <section data-tab-id="saias" class="roupa"> <!-- SAIAS -->
+      <section data-tab-id="saias" class="roupa">
+        <!-- SAIAS -->
         <div class="container">
           <ul class="roupa__items">
             <li class="roupa__items__item">
@@ -251,7 +263,8 @@
           </ul>
       </section>
 
-      <section data-tab-id="shorts" class="roupa"> <!-- SHORTS -->
+      <section data-tab-id="shorts" class="roupa">
+        <!-- SHORTS -->
         <div class="container">
           <ul class="roupa__items">
             <li class="roupa__items__item">
@@ -266,7 +279,8 @@
           </ul>
       </section>
 
-      <section data-tab-id="tenis" class="roupa"> <!-- TENIS -->
+      <section data-tab-id="tenis" class="roupa">
+        <!-- TENIS -->
         <div class="container">
           <ul class="roupa__items">
             <li class="roupa__items__item">
@@ -281,7 +295,8 @@
           </ul>
       </section>
 
-      <section data-tab-id="sandalias" class="roupa"> <!-- SANDALIAS -->
+      <section data-tab-id="sandalias" class="roupa">
+        <!-- SANDALIAS -->
         <div class="container">
           <ul class="roupa__items">
             <li class="roupa__items__item">
@@ -296,7 +311,8 @@
           </ul>
       </section>
 
-      <section data-tab-id="sapatilhas" class="roupa"> <!-- SAPATILHAS -->
+      <section data-tab-id="sapatilhas" class="roupa">
+        <!-- SAPATILHAS -->
         <div class="container">
           <ul class="roupa__items">
             <li class="roupa__items__item">
@@ -311,7 +327,8 @@
           </ul>
       </section>
 
-      <section data-tab-id="colares" class="roupa"> <!-- COLARES, BRINCO E PULSEIRA -->
+      <section data-tab-id="colares" class="roupa">
+        <!-- COLARES, BRINCO E PULSEIRA -->
         <div class="container">
           <ul class="roupa__items">
             <li class="roupa__items__item">
@@ -326,7 +343,8 @@
           </ul>
       </section>
 
-      <section data-tab-id="bolsas" class="roupa"> <!-- BOLSAS -->
+      <section data-tab-id="bolsas" class="roupa">
+        <!-- BOLSAS -->
         <div class="container">
           <ul class="roupa__items">
             <li class="roupa__items__item">
@@ -341,8 +359,9 @@
           </ul>
       </section>
 
-      <section data-tab-id="oculos" class="roupa"> <!-- OCULOS -->
-        <div class="container"> 
+      <section data-tab-id="oculos" class="roupa">
+        <!-- OCULOS -->
+        <div class="container">
           <ul class="roupa__items">
             <li class="roupa__items__item">
               <img src="https:dummyimage.com//100x400" alt="" />
@@ -356,7 +375,8 @@
           </ul>
       </section>
 
-      <section data-tab-id="conjunto" class="roupa"> <!-- CONJUNTO -->
+      <section data-tab-id="conjunto" class="roupa">
+        <!-- CONJUNTO -->
         <div class="container">
           <ul class="roupa__items">
             <li class="roupa__items__item">
@@ -371,7 +391,8 @@
           </ul>
       </section>
 
-      <section data-tab-id="sutia" class="roupa"> <!-- SUTIA -->
+      <section data-tab-id="sutia" class="roupa">
+        <!-- SUTIA -->
         <div class="container">
           <ul class="roupa__items">
             <li class="roupa__items__item">
@@ -385,7 +406,8 @@
             </li>
           </ul>
       </section>
-      <section data-tab-id="calcinha" class="roupa"> <!-- CALCINHA -->
+      <section data-tab-id="calcinha" class="roupa">
+        <!-- CALCINHA -->
         <div class="container">
           <ul class="roupa__items">
             <li class="roupa__items__item">
@@ -615,6 +637,9 @@
 
 
       </div>
+    </section>
+    <section class="seta-subir">
+      <button><img src="../image/icons/circle-up.png" alt="seta para subir ao topo da página"></button>
     </section>
   </footer>
 </body>

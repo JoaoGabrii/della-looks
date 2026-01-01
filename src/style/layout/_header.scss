@@ -9,6 +9,7 @@ header {
     align-items: center;
     margin: 0 auto;
     min-height: 80px;
+
     &__title {
       display: flex;
       justify-content: space-between;
@@ -33,12 +34,13 @@ header {
       width: 200px;
     }
 
-    h1{
+    h1 {
       font-family: $titleFont;
       @include h1();
       color: $colorMenu;
       @include titleBrilho();
     }
+
     h2 {
       font-family: $titleFont;
       @include h1();
@@ -77,43 +79,19 @@ header {
   }
 }
 
-.navegador__scrool-arrow-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 1%;
-}
 
-.navegador__scrool-arrow {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-right: 1%;
-}
 
-.setas-menu {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 2%;
-  margin-right: 2%;
-}
 
-.navegador::-webkit-scrollbar {
-  display: none;
-}
 
 .navegador {
   background-color: $headerFooter;
   position: relative;
 
   &__botoes {
-    position: absolute;
-    overflow-y: visible;
-    overflow-x: auto;
+
     max-width: 100%;
     width: 100%;
-    min-height: 70px;
-    display: flex;
+    min-height: 40px;
     padding: 4px 16px;
     margin: 0 auto;
     list-style: none;
@@ -122,9 +100,8 @@ header {
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -4px;
+
+
 
     &__items {
       max-width: 100%;
@@ -132,16 +109,19 @@ header {
       margin: 0 auto;
       text-align: center;
       display: flex;
-      justify-content: space-around;
       list-style-type: none;
 
 
       &__item {
-        height: 0px;
-        padding: 0 5rem;
-        padding: 0px;
+        height: 0rem;
+        padding: 0rem;
         margin: 0 auto;
         width: 100%;
+
+        &__botaoPrincipal {
+          display: flex;
+          justify-content: center;
+        }
 
         button {
           border: none;
@@ -154,6 +134,8 @@ header {
           cursor: pointer;
           color: $colorMenuButtons;
           filter: brightness(1.6);
+          margin-bottom: 0rem;
+
 
           &::after {
             content: "";
@@ -173,71 +155,36 @@ header {
         }
 
 
-
-
         //lista de opções de roupas
         .listaa {
           max-width: 100%;
-          width: 100%;
+          width: 55%;
           margin: 0 auto;
           border-radius: 5%;
-          position: absolute;
           left: 0px;
-          
+          text-align: start;
+
         }
 
         .lista {
-          display: flex;
           max-width: 100%;
           width: 100%;
+          margin: 15px 0 15px 0;
+          padding: 15px;
           opacity: 0;
           pointer-events: none;
           transition: all 0.4s ease-in-out;
-          /* Posição inicial: sem transformação (visível) */
           transform: translateX(-100%);
+          background-color: $headerFooter;
+          list-style: none;
+          border-radius: 20px;
 
-
-
-          &__item {
-            // botão do sub menu
-            list-style-type: none;
-            max-width: 100%;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 30px;
-            background-color: $backSubMenuRoupas;
-            margin-top: 1px;
-            border-top: 1px solid;
-            border-bottom: 1px solid black;
-
-            button {
-              color: $colorMenuButtons;
-              height: 20px;
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-            }
-          }
-
-          &__item.-calcados {
-            background-color: $backSubMenuCalcados;
-          }
-
-          &__item.-bolsas {
-            background-color: $backSubMenuBolsas;
-            
-          }
-
-          &__item.-oculos {
-            background-color: $backSubMenuOculos;
+          button {
+            margin: 10px 0px 10px 0px;
           }
 
           &-is--active {
             color: $colorMenuButtons;
-            display: flex;
-            position: relative;
             transform: translateX(0%);
             opacity: 1;
             pointer-events: auto;
