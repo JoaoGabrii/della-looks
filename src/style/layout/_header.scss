@@ -85,23 +85,17 @@ header {
 
 .navegador {
   background-color: $headerFooter;
-  position: relative;
+  
 
   &__botoes {
-
     max-width: 100%;
     width: 100%;
-    min-height: 40px;
+    min-height: 60px;
     padding: 4px 16px;
     margin: 0 auto;
-    list-style: none;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+    
 
-
+    
 
     &__items {
       max-width: 100%;
@@ -110,13 +104,14 @@ header {
       text-align: center;
       display: flex;
       list-style-type: none;
-
-
+      flex-wrap: wrap;
+      gap: 26px;
+      
       &__item {
-        height: 0rem;
+        height: 1rem;
         padding: 0rem;
         margin: 0 auto;
-        width: 100%;
+        
 
         &__botaoPrincipal {
           display: flex;
@@ -129,13 +124,14 @@ header {
           cursor: pointer;
           text-decoration: none;
           font-weight: 700;
-          position: relative;
-          display: inline-block;
+          margin: 0 10px;
+          
           cursor: pointer;
           color: $colorMenuButtons;
           filter: brightness(1.6);
           margin-bottom: 0rem;
-
+          max-width: 200px;
+          
 
           &::after {
             content: "";
@@ -157,19 +153,19 @@ header {
 
         //lista de opções de roupas
         .listaa {
-          max-width: 100%;
-          width: 55%;
+          max-width: 200px;
+          width: 100%;
           margin: 0 auto;
           border-radius: 5%;
           left: 0px;
           text-align: start;
-
+          z-index: 1000;
         }
 
         .lista {
-          max-width: 100%;
+          max-width: 250px;
           width: 100%;
-          margin: 15px 0 15px 0;
+          margin: 36px 0 15px 0;
           padding: 15px;
           opacity: 0;
           pointer-events: none;
@@ -178,7 +174,7 @@ header {
           background-color: $headerFooter;
           list-style: none;
           border-radius: 20px;
-
+          z-index: 10;
           button {
             margin: 10px 0px 10px 0px;
           }
@@ -188,7 +184,8 @@ header {
             transform: translateX(0%);
             opacity: 1;
             pointer-events: auto;
-            z-index: 10;
+            z-index: 1000;
+
           }
         }
       }
